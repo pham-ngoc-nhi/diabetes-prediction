@@ -1,0 +1,25 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "CPython 3.11.4",
+  "startedAt":  "2025-04-30T17:44:18.685418Z",
+  "program":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\3_preprocessing.ipynb",
+  "codePath":  "3_preprocessing.ipynb",
+  "email":  "mlcolongmay@gmail.com",
+  "root":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project",
+  "host":  "DESKTOP-C021RC1",
+  "executable":  "c:\\Users\\x-hp\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "codePathLocal":  "3_preprocessing.ipynb",
+  "cpu_count_logical":  4,
+  "disk":  {
+    "/":  {
+      "total":  "254805131264",
+      "used":  "216156155904"
+    }
+  },
+  "memory":  {
+    "total":  "8459083776"
+  },
+  "cpu":  {
+    "countLogical":  4
+  }
+}

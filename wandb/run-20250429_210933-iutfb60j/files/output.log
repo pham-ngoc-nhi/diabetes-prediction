@@ -1,0 +1,224 @@
+Khởi tạo W&B thành công
+[1m============================= test session starts =============================[0m
+platform win32 -- Python 3.10.16, pytest-8.3.5, pluggy-1.5.0 -- C:\Users\Admin\anaconda3\envs\mlflow_demo\python.exe
+cachedir: .pytest_cache
+rootdir: c:\Users\Admin\Desktop\MLOps\Project
+plugins: sugar-1.0.0, typeguard-4.4.2
+[1mcollecting ... [0mcollected 0 items
+
+[33m============================ [33mno tests ran[0m[33m in 0.15s[0m[33m ============================[0m
+UsageError: Line magic function `%%file` not found.
+Writing test_data.py
+Writing test_data.py
+[1m============================= test session starts =============================[0m
+platform win32 -- Python 3.10.16, pytest-8.3.5, pluggy-1.5.0 -- C:\Users\Admin\anaconda3\envs\mlflow_demo\python.exe
+cachedir: .pytest_cache
+rootdir: c:\Users\Admin\Desktop\MLOps\Project
+plugins: sugar-1.0.0, typeguard-4.4.2
+[1mcollecting ... [0mcollected 5 items
+
+test_data.py::test_data_length [31mERROR[0m[31m                                     [ 20%][0m
+test_data.py::test_number_of_columns [31mERROR[0m[31m                               [ 40%][0m
+test_data.py::test_column_presence_and_type [31mERROR[0m[31m                        [ 60%][0m
+test_data.py::test_class_names [31mERROR[0m[31m                                     [ 80%][0m
+test_data.py::test_column_ranges [31mERROR[0m[31m                                   [100%][0m
+
+=================================== ERRORS ====================================
+[31m[1m_____________________ ERROR at setup of test_data_length ______________________[0m
+
+    [0m[37m@pytest[39;49;00m.fixture(scope=[33m"[39;49;00m[33msession[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mdata[39;49;00m():[90m[39;49;00m
+    [90m    [39;49;00m[33m"""[39;49;00m
+    [33m    Fixture để tải tập dữ liệu diabetes từ W&B artifact.[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [96mprint[39;49;00m([33m"[39;49;00m[33mĐang tải artifact...[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+>           local_path = run.use_artifact([33m"[39;49;00m[33mpreprocessed_data.csv:latest[39;49;00m[33m"[39;49;00m).file()[90m[39;49;00m
+
+[1m[31mtest_data.py[0m:22:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\_validators.py[0m:99: in wrapper
+    [0m[94mreturn[39;49;00m method([96mself[39;49;00m, *args, **kwargs)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\artifact.py[0m:2144: in file
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m.get_entry([96mlist[39;49;00m([96mself[39;49;00m.manifest.entries)[[94m0[39;49;00m]).download(root)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\artifact_manifest_entry.py[0m:160: in download
+    [0mmd5_hash = md5_file_b64(dest_path)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\lib\hashutil.py[0m:47: in md5_file_b64
+    [0m[94mreturn[39;49;00m _b64_from_hasher(_md5_file_hasher(*paths))[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+paths = ('.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv',)
+md5_hash = <md5 _hashlib.HASH object @ 0x0000022EEB4BC910>
+path = '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92m_md5_file_hasher[39;49;00m(*paths: StrPath) -> _hashlib.HASH:[90m[39;49;00m
+        md5_hash = _md5()[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Note: We use str paths (instead of pathlib.Path objs) for minor perf improvements.[39;49;00m[90m[39;49;00m
+        [94mfor[39;49;00m path [95min[39;49;00m [96msorted[39;49;00m([96mmap[39;49;00m([96mstr[39;49;00m, paths)):[90m[39;49;00m
+>           [94mwith[39;49;00m [96mopen[39;49;00m(path, [33m"[39;49;00m[33mrb[39;49;00m[33m"[39;49;00m) [94mas[39;49;00m f:[90m[39;49;00m
+[1m[31mE           OSError: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'[0m
+
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\lib\hashutil.py[0m:64: OSError
+---------------------------- Captured stdout setup ----------------------------
+Đang tải artifact...
+Lỗi khi tải artifact: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+[31m[1m__________________ ERROR at setup of test_number_of_columns ___________________[0m
+
+    [0m[37m@pytest[39;49;00m.fixture(scope=[33m"[39;49;00m[33msession[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mdata[39;49;00m():[90m[39;49;00m
+    [90m    [39;49;00m[33m"""[39;49;00m
+    [33m    Fixture để tải tập dữ liệu diabetes từ W&B artifact.[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [96mprint[39;49;00m([33m"[39;49;00m[33mĐang tải artifact...[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+>           local_path = run.use_artifact([33m"[39;49;00m[33mpreprocessed_data.csv:latest[39;49;00m[33m"[39;49;00m).file()[90m[39;49;00m
+
+[1m[31mtest_data.py[0m:22:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\_validators.py[0m:99: in wrapper
+    [0m[94mreturn[39;49;00m method([96mself[39;49;00m, *args, **kwargs)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\artifact.py[0m:2144: in file
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m.get_entry([96mlist[39;49;00m([96mself[39;49;00m.manifest.entries)[[94m0[39;49;00m]).download(root)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\artifact_manifest_entry.py[0m:160: in download
+    [0mmd5_hash = md5_file_b64(dest_path)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\lib\hashutil.py[0m:47: in md5_file_b64
+    [0m[94mreturn[39;49;00m _b64_from_hasher(_md5_file_hasher(*paths))[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+paths = ('.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv',)
+md5_hash = <md5 _hashlib.HASH object @ 0x0000022EEB4BC910>
+path = '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92m_md5_file_hasher[39;49;00m(*paths: StrPath) -> _hashlib.HASH:[90m[39;49;00m
+        md5_hash = _md5()[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Note: We use str paths (instead of pathlib.Path objs) for minor perf improvements.[39;49;00m[90m[39;49;00m
+        [94mfor[39;49;00m path [95min[39;49;00m [96msorted[39;49;00m([96mmap[39;49;00m([96mstr[39;49;00m, paths)):[90m[39;49;00m
+>           [94mwith[39;49;00m [96mopen[39;49;00m(path, [33m"[39;49;00m[33mrb[39;49;00m[33m"[39;49;00m) [94mas[39;49;00m f:[90m[39;49;00m
+[1m[31mE           OSError: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'[0m
+
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\lib\hashutil.py[0m:64: OSError
+[31m[1m_______________ ERROR at setup of test_column_presence_and_type _______________[0m
+
+    [0m[37m@pytest[39;49;00m.fixture(scope=[33m"[39;49;00m[33msession[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mdata[39;49;00m():[90m[39;49;00m
+    [90m    [39;49;00m[33m"""[39;49;00m
+    [33m    Fixture để tải tập dữ liệu diabetes từ W&B artifact.[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [96mprint[39;49;00m([33m"[39;49;00m[33mĐang tải artifact...[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+>           local_path = run.use_artifact([33m"[39;49;00m[33mpreprocessed_data.csv:latest[39;49;00m[33m"[39;49;00m).file()[90m[39;49;00m
+
+[1m[31mtest_data.py[0m:22:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\_validators.py[0m:99: in wrapper
+    [0m[94mreturn[39;49;00m method([96mself[39;49;00m, *args, **kwargs)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\artifact.py[0m:2144: in file
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m.get_entry([96mlist[39;49;00m([96mself[39;49;00m.manifest.entries)[[94m0[39;49;00m]).download(root)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\artifact_manifest_entry.py[0m:160: in download
+    [0mmd5_hash = md5_file_b64(dest_path)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\lib\hashutil.py[0m:47: in md5_file_b64
+    [0m[94mreturn[39;49;00m _b64_from_hasher(_md5_file_hasher(*paths))[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+paths = ('.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv',)
+md5_hash = <md5 _hashlib.HASH object @ 0x0000022EEB4BC910>
+path = '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92m_md5_file_hasher[39;49;00m(*paths: StrPath) -> _hashlib.HASH:[90m[39;49;00m
+        md5_hash = _md5()[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Note: We use str paths (instead of pathlib.Path objs) for minor perf improvements.[39;49;00m[90m[39;49;00m
+        [94mfor[39;49;00m path [95min[39;49;00m [96msorted[39;49;00m([96mmap[39;49;00m([96mstr[39;49;00m, paths)):[90m[39;49;00m
+>           [94mwith[39;49;00m [96mopen[39;49;00m(path, [33m"[39;49;00m[33mrb[39;49;00m[33m"[39;49;00m) [94mas[39;49;00m f:[90m[39;49;00m
+[1m[31mE           OSError: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'[0m
+
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\lib\hashutil.py[0m:64: OSError
+[31m[1m_____________________ ERROR at setup of test_class_names ______________________[0m
+
+    [0m[37m@pytest[39;49;00m.fixture(scope=[33m"[39;49;00m[33msession[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mdata[39;49;00m():[90m[39;49;00m
+    [90m    [39;49;00m[33m"""[39;49;00m
+    [33m    Fixture để tải tập dữ liệu diabetes từ W&B artifact.[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [96mprint[39;49;00m([33m"[39;49;00m[33mĐang tải artifact...[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+>           local_path = run.use_artifact([33m"[39;49;00m[33mpreprocessed_data.csv:latest[39;49;00m[33m"[39;49;00m).file()[90m[39;49;00m
+
+[1m[31mtest_data.py[0m:22:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\_validators.py[0m:99: in wrapper
+    [0m[94mreturn[39;49;00m method([96mself[39;49;00m, *args, **kwargs)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\artifact.py[0m:2144: in file
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m.get_entry([96mlist[39;49;00m([96mself[39;49;00m.manifest.entries)[[94m0[39;49;00m]).download(root)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\artifact_manifest_entry.py[0m:160: in download
+    [0mmd5_hash = md5_file_b64(dest_path)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\lib\hashutil.py[0m:47: in md5_file_b64
+    [0m[94mreturn[39;49;00m _b64_from_hasher(_md5_file_hasher(*paths))[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+paths = ('.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv',)
+md5_hash = <md5 _hashlib.HASH object @ 0x0000022EEB4BC910>
+path = '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92m_md5_file_hasher[39;49;00m(*paths: StrPath) -> _hashlib.HASH:[90m[39;49;00m
+        md5_hash = _md5()[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Note: We use str paths (instead of pathlib.Path objs) for minor perf improvements.[39;49;00m[90m[39;49;00m
+        [94mfor[39;49;00m path [95min[39;49;00m [96msorted[39;49;00m([96mmap[39;49;00m([96mstr[39;49;00m, paths)):[90m[39;49;00m
+>           [94mwith[39;49;00m [96mopen[39;49;00m(path, [33m"[39;49;00m[33mrb[39;49;00m[33m"[39;49;00m) [94mas[39;49;00m f:[90m[39;49;00m
+[1m[31mE           OSError: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'[0m
+
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\lib\hashutil.py[0m:64: OSError
+[31m[1m____________________ ERROR at setup of test_column_ranges _____________________[0m
+
+    [0m[37m@pytest[39;49;00m.fixture(scope=[33m"[39;49;00m[33msession[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mdata[39;49;00m():[90m[39;49;00m
+    [90m    [39;49;00m[33m"""[39;49;00m
+    [33m    Fixture để tải tập dữ liệu diabetes từ W&B artifact.[39;49;00m
+    [33m    """[39;49;00m[90m[39;49;00m
+        [96mprint[39;49;00m([33m"[39;49;00m[33mĐang tải artifact...[39;49;00m[33m"[39;49;00m)[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+>           local_path = run.use_artifact([33m"[39;49;00m[33mpreprocessed_data.csv:latest[39;49;00m[33m"[39;49;00m).file()[90m[39;49;00m
+
+[1m[31mtest_data.py[0m:22:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\_validators.py[0m:99: in wrapper
+    [0m[94mreturn[39;49;00m method([96mself[39;49;00m, *args, **kwargs)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\artifact.py[0m:2144: in file
+    [0m[94mreturn[39;49;00m [96mself[39;49;00m.get_entry([96mlist[39;49;00m([96mself[39;49;00m.manifest.entries)[[94m0[39;49;00m]).download(root)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\artifacts\artifact_manifest_entry.py[0m:160: in download
+    [0mmd5_hash = md5_file_b64(dest_path)[90m[39;49;00m
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\lib\hashutil.py[0m:47: in md5_file_b64
+    [0m[94mreturn[39;49;00m _b64_from_hasher(_md5_file_hasher(*paths))[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+paths = ('.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv',)
+md5_hash = <md5 _hashlib.HASH object @ 0x0000022EEB4BC910>
+path = '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+
+    [0m[94mdef[39;49;00m[90m [39;49;00m[92m_md5_file_hasher[39;49;00m(*paths: StrPath) -> _hashlib.HASH:[90m[39;49;00m
+        md5_hash = _md5()[90m[39;49;00m
+    [90m[39;49;00m
+        [90m# Note: We use str paths (instead of pathlib.Path objs) for minor perf improvements.[39;49;00m[90m[39;49;00m
+        [94mfor[39;49;00m path [95min[39;49;00m [96msorted[39;49;00m([96mmap[39;49;00m([96mstr[39;49;00m, paths)):[90m[39;49;00m
+>           [94mwith[39;49;00m [96mopen[39;49;00m(path, [33m"[39;49;00m[33mrb[39;49;00m[33m"[39;49;00m) [94mas[39;49;00m f:[90m[39;49;00m
+[1m[31mE           OSError: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'[0m
+
+[1m[31m..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\sdk\lib\hashutil.py[0m:64: OSError
+[33m============================== warnings summary ===============================[0m
+..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\analytics\sentry.py:259
+..\..\..\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\analytics\sentry.py:259
+  C:\Users\Admin\anaconda3\envs\mlflow_demo\lib\site-packages\wandb\analytics\sentry.py:259: DeprecationWarning: The `Scope.user` setter is deprecated in favor of `Scope.set_user()`.
+    self.scope.user = {"email": email}  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+[36m[1m=========================== short test summary info ===========================[0m
+[31mERROR[0m test_data.py::[1mtest_data_length[0m - OSError: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+[31mERROR[0m test_data.py::[1mtest_number_of_columns[0m - OSError: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+[31mERROR[0m test_data.py::[1mtest_column_presence_and_type[0m - OSError: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+[31mERROR[0m test_data.py::[1mtest_class_names[0m - OSError: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+[31mERROR[0m test_data.py::[1mtest_column_ranges[0m - OSError: [Errno 22] Invalid argument: '.\\artifacts\\preprocessed_data.csv:latest\\preprocessed_data.csv'
+[31m======================== [33m2 warnings[0m, [31m[1m5 errors[0m[31m in 8.79s[0m[31m ========================[0m
+[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.

@@ -1,0 +1,1130 @@
+02-05-2025 00:07:20 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+02-05-2025 00:07:22 Spliting data into train/val
+02-05-2025 00:07:22 x train: (375, 28)
+02-05-2025 00:07:22 y train: (375,)
+02-05-2025 00:07:22 x val: (162, 28)
+02-05-2025 00:07:22 y val: (162,)
+02-05-2025 00:07:22 Outlier Removal
+02-05-2025 00:07:22 x_train shape [original]: (375, 28)
+02-05-2025 00:07:22 x_train shape [outlier removal]: (357, 28)
+02-05-2025 00:07:23 Data after SMOTE: (476, 28)
+02-05-2025 00:07:23 [Logistic] Accuracy: 0.7469135802469136
+02-05-2025 00:07:24 [Random Forest] Accuracy: 0.7222222222222222
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:07:24] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+02-05-2025 00:07:24 [XGBoost] Accuracy: 0.7222222222222222
+                 Model  Accuracy
+0  Logistic Regression  0.746914
+1        Random Forest  0.722222
+2              XGBoost  0.722222
+[I 2025-05-02 00:07:27,088] A new study created in memory with name: no-name-16215ff0-f9a7-4404-9d74-f87f0a98735b
+[I 2025-05-02 00:07:28,452] Trial 0 finished with value: 0.7845070422535212 and parameters: {'n_estimators': 73, 'max_depth': 5, 'min_samples_split': 8, 'min_samples_leaf': 4}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:31,354] Trial 1 finished with value: 0.7844287949921751 and parameters: {'n_estimators': 189, 'max_depth': 8, 'min_samples_split': 6, 'min_samples_leaf': 1}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:33,050] Trial 2 finished with value: 0.7704616588419405 and parameters: {'n_estimators': 172, 'max_depth': 2, 'min_samples_split': 4, 'min_samples_leaf': 5}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:34,271] Trial 3 finished with value: 0.7817292644757433 and parameters: {'n_estimators': 92, 'max_depth': 3, 'min_samples_split': 7, 'min_samples_leaf': 3}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:35,385] Trial 4 finished with value: 0.7704616588419405 and parameters: {'n_estimators': 95, 'max_depth': 2, 'min_samples_split': 3, 'min_samples_leaf': 5}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:37,545] Trial 5 finished with value: 0.7788732394366196 and parameters: {'n_estimators': 174, 'max_depth': 4, 'min_samples_split': 3, 'min_samples_leaf': 5}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:38,820] Trial 6 finished with value: 0.7816901408450704 and parameters: {'n_estimators': 118, 'max_depth': 3, 'min_samples_split': 4, 'min_samples_leaf': 2}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:39,852] Trial 7 finished with value: 0.7815727699530515 and parameters: {'n_estimators': 56, 'max_depth': 7, 'min_samples_split': 4, 'min_samples_leaf': 4}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:41,580] Trial 8 finished with value: 0.7844287949921753 and parameters: {'n_estimators': 160, 'max_depth': 8, 'min_samples_split': 8, 'min_samples_leaf': 3}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:42,514] Trial 9 finished with value: 0.7816510172143974 and parameters: {'n_estimators': 90, 'max_depth': 7, 'min_samples_split': 10, 'min_samples_leaf': 5}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:43,095] Trial 10 finished with value: 0.7816901408450704 and parameters: {'n_estimators': 50, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 4}. Best is trial 0 with value: 0.7845070422535212.
+[I 2025-05-02 00:07:44,750] Trial 11 finished with value: 0.7872848200312988 and parameters: {'n_estimators': 147, 'max_depth': 5, 'min_samples_split': 8, 'min_samples_leaf': 3}. Best is trial 11 with value: 0.7872848200312988.
+[I 2025-05-02 00:07:46,268] Trial 12 finished with value: 0.7901017214397494 and parameters: {'n_estimators': 141, 'max_depth': 5, 'min_samples_split': 8, 'min_samples_leaf': 2}. Best is trial 12 with value: 0.7901017214397494.
+[I 2025-05-02 00:07:47,846] Trial 13 finished with value: 0.7901017214397494 and parameters: {'n_estimators': 141, 'max_depth': 5, 'min_samples_split': 8, 'min_samples_leaf': 2}. Best is trial 12 with value: 0.7901017214397494.
+[I 2025-05-02 00:07:49,450] Trial 14 finished with value: 0.7844679186228483 and parameters: {'n_estimators': 135, 'max_depth': 5, 'min_samples_split': 6, 'min_samples_leaf': 1}. Best is trial 12 with value: 0.7901017214397494.
+[I 2025-05-02 00:07:50,765] Trial 15 finished with value: 0.7816901408450704 and parameters: {'n_estimators': 118, 'max_depth': 6, 'min_samples_split': 9, 'min_samples_leaf': 2}. Best is trial 12 with value: 0.7901017214397494.
+[I 2025-05-02 00:07:52,202] Trial 16 finished with value: 0.776056338028169 and parameters: {'n_estimators': 137, 'max_depth': 4, 'min_samples_split': 7, 'min_samples_leaf': 2}. Best is trial 12 with value: 0.7901017214397494.
+[I 2025-05-02 00:07:54,388] Trial 17 finished with value: 0.7901017214397497 and parameters: {'n_estimators': 196, 'max_depth': 6, 'min_samples_split': 9, 'min_samples_leaf': 2}. Best is trial 17 with value: 0.7901017214397497.
+[I 2025-05-02 00:07:56,536] Trial 18 finished with value: 0.7901017214397497 and parameters: {'n_estimators': 193, 'max_depth': 10, 'min_samples_split': 9, 'min_samples_leaf': 1}. Best is trial 17 with value: 0.7901017214397497.
+[I 2025-05-02 00:07:58,617] Trial 19 finished with value: 0.7928403755868544 and parameters: {'n_estimators': 198, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 19 with value: 0.7928403755868544.
+[I 2025-05-02 00:08:00,996] Trial 20 finished with value: 0.8012128325508607 and parameters: {'n_estimators': 200, 'max_depth': 9, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 20 with value: 0.8012128325508607.
+[I 2025-05-02 00:08:03,631] Trial 21 finished with value: 0.8012128325508607 and parameters: {'n_estimators': 193, 'max_depth': 9, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 20 with value: 0.8012128325508607.
+[I 2025-05-02 00:08:07,890] Trial 22 finished with value: 0.8012128325508607 and parameters: {'n_estimators': 178, 'max_depth': 9, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 20 with value: 0.8012128325508607.
+[I 2025-05-02 00:08:12,772] Trial 23 finished with value: 0.8012128325508607 and parameters: {'n_estimators': 179, 'max_depth': 9, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 20 with value: 0.8012128325508607.
+[I 2025-05-02 00:08:16,570] Trial 24 finished with value: 0.7928403755868544 and parameters: {'n_estimators': 163, 'max_depth': 9, 'min_samples_split': 9, 'min_samples_leaf': 1}. Best is trial 20 with value: 0.8012128325508607.
+[I 2025-05-02 00:08:18,941] Trial 25 finished with value: 0.8012128325508607 and parameters: {'n_estimators': 182, 'max_depth': 9, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 20 with value: 0.8012128325508607.
+[I 2025-05-02 00:08:21,144] Trial 26 finished with value: 0.7900234741784038 and parameters: {'n_estimators': 163, 'max_depth': 8, 'min_samples_split': 9, 'min_samples_leaf': 1}. Best is trial 20 with value: 0.8012128325508607.
+[I 2025-05-02 00:08:23,441] Trial 27 finished with value: 0.7928794992175273 and parameters: {'n_estimators': 185, 'max_depth': 9, 'min_samples_split': 7, 'min_samples_leaf': 2}. Best is trial 20 with value: 0.8012128325508607.
+[I 2025-05-02 00:08:25,543] Trial 28 finished with value: 0.7956181533646323 and parameters: {'n_estimators': 154, 'max_depth': 7, 'min_samples_split': 2, 'min_samples_leaf': 1}. Best is trial 20 with value: 0.8012128325508607.
+[I 2025-05-02 00:08:27,769] Trial 29 finished with value: 0.8012910798122064 and parameters: {'n_estimators': 200, 'max_depth': 8, 'min_samples_split': 10, 'min_samples_leaf': 2}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:30,523] Trial 30 finished with value: 0.7929186228482002 and parameters: {'n_estimators': 200, 'max_depth': 8, 'min_samples_split': 9, 'min_samples_leaf': 2}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:32,462] Trial 31 finished with value: 0.8012128325508607 and parameters: {'n_estimators': 172, 'max_depth': 9, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:35,362] Trial 32 finished with value: 0.7956181533646323 and parameters: {'n_estimators': 188, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:37,935] Trial 33 finished with value: 0.7929186228482002 and parameters: {'n_estimators': 188, 'max_depth': 8, 'min_samples_split': 9, 'min_samples_leaf': 2}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:40,733] Trial 34 finished with value: 0.8012128325508607 and parameters: {'n_estimators': 200, 'max_depth': 9, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:42,781] Trial 35 finished with value: 0.7816118935837245 and parameters: {'n_estimators': 178, 'max_depth': 7, 'min_samples_split': 8, 'min_samples_leaf': 3}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:44,960] Trial 36 finished with value: 0.795657276995305 and parameters: {'n_estimators': 191, 'max_depth': 10, 'min_samples_split': 6, 'min_samples_leaf': 2}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:47,033] Trial 37 finished with value: 0.7872456964006259 and parameters: {'n_estimators': 170, 'max_depth': 8, 'min_samples_split': 9, 'min_samples_leaf': 1}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:48,969] Trial 38 finished with value: 0.7900234741784036 and parameters: {'n_estimators': 180, 'max_depth': 9, 'min_samples_split': 5, 'min_samples_leaf': 3}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:51,128] Trial 39 finished with value: 0.7872456964006259 and parameters: {'n_estimators': 169, 'max_depth': 7, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:53,450] Trial 40 finished with value: 0.7816118935837245 and parameters: {'n_estimators': 192, 'max_depth': 8, 'min_samples_split': 5, 'min_samples_leaf': 2}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:55,528] Trial 41 finished with value: 0.8012128325508607 and parameters: {'n_estimators': 178, 'max_depth': 9, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:57,752] Trial 42 finished with value: 0.8012128325508607 and parameters: {'n_estimators': 186, 'max_depth': 9, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:08:59,866] Trial 43 finished with value: 0.7900625978090767 and parameters: {'n_estimators': 155, 'max_depth': 10, 'min_samples_split': 10, 'min_samples_leaf': 1}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:09:01,244] Trial 44 finished with value: 0.7956964006259781 and parameters: {'n_estimators': 99, 'max_depth': 8, 'min_samples_split': 9, 'min_samples_leaf': 1}. Best is trial 29 with value: 0.8012910798122064.
+[I 2025-05-02 00:09:03,361] Trial 45 finished with value: 0.8041079812206572 and parameters: {'n_estimators': 177, 'max_depth': 9, 'min_samples_split': 8, 'min_samples_leaf': 1}. Best is trial 45 with value: 0.8041079812206572.
+[I 2025-05-02 00:09:04,306] Trial 46 finished with value: 0.7956181533646323 and parameters: {'n_estimators': 79, 'max_depth': 10, 'min_samples_split': 8, 'min_samples_leaf': 2}. Best is trial 45 with value: 0.8041079812206572.
+[I 2025-05-02 00:09:05,817] Trial 47 finished with value: 0.7872848200312988 and parameters: {'n_estimators': 125, 'max_depth': 8, 'min_samples_split': 7, 'min_samples_leaf': 3}. Best is trial 45 with value: 0.8041079812206572.
+[I 2025-05-02 00:09:08,126] Trial 48 finished with value: 0.7985133020344287 and parameters: {'n_estimators': 192, 'max_depth': 9, 'min_samples_split': 8, 'min_samples_leaf': 1}. Best is trial 45 with value: 0.8041079812206572.
+[I 2025-05-02 00:09:10,340] Trial 49 finished with value: 0.7928012519561815 and parameters: {'n_estimators': 167, 'max_depth': 7, 'min_samples_split': 9, 'min_samples_leaf': 2}. Best is trial 45 with value: 0.8041079812206572.
+✅ Best RF Params: {'n_estimators': 177, 'max_depth': 9, 'min_samples_split': 8, 'min_samples_leaf': 1}
+[I 2025-05-02 00:09:10,344] A new study created in memory with name: no-name-1316e150-18f7-46c3-a54d-8df1c64fde52
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:10] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:10] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:10] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:10] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:11] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:11,356] Trial 0 finished with value: 0.7928403755868544 and parameters: {'n_estimators': 287, 'max_depth': 3, 'learning_rate': 0.07785996126507058, 'subsample': 0.90457059902764, 'colsample_bytree': 0.8231590272788599, 'gamma': 3.5562739236647154, 'min_child_weight': 3}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:11] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:11] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:11] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:12] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:12] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:12,534] Trial 1 finished with value: 0.7787949921752739 and parameters: {'n_estimators': 189, 'max_depth': 5, 'learning_rate': 0.034574993906016, 'subsample': 0.6070106894226974, 'colsample_bytree': 0.8244559808450937, 'gamma': 0.5732430922040005, 'min_child_weight': 2}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:12] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:12] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:12] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:13] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:13] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:13,470] Trial 2 finished with value: 0.7591549295774648 and parameters: {'n_estimators': 209, 'max_depth': 5, 'learning_rate': 0.05225668287151775, 'subsample': 0.6888616445191088, 'colsample_bytree': 0.8052077490438089, 'gamma': 0.8134659683533713, 'min_child_weight': 4}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:13] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:13] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:13] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:14] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:14] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:14,380] Trial 3 finished with value: 0.7787949921752739 and parameters: {'n_estimators': 257, 'max_depth': 4, 'learning_rate': 0.16555129702066537, 'subsample': 0.6908681151424292, 'colsample_bytree': 0.7203443548277506, 'gamma': 0.4035797575728578, 'min_child_weight': 1}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:14] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:14] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:14] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:14] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:14] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:15,099] Trial 4 finished with value: 0.7816510172143974 and parameters: {'n_estimators': 142, 'max_depth': 10, 'learning_rate': 0.06593646454112802, 'subsample': 0.6533793796887702, 'colsample_bytree': 0.8637275169355491, 'gamma': 1.58041724447622, 'min_child_weight': 2}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:15] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:15] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:15] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:15] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:15] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:15,766] Trial 5 finished with value: 0.7676447574334897 and parameters: {'n_estimators': 173, 'max_depth': 7, 'learning_rate': 0.048621574137587865, 'subsample': 0.8144799839561849, 'colsample_bytree': 0.7474241362619138, 'gamma': 3.5243076883259947, 'min_child_weight': 8}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:15] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:15] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:16] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:16] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:16] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:16,680] Trial 6 finished with value: 0.7816118935837245 and parameters: {'n_estimators': 247, 'max_depth': 5, 'learning_rate': 0.14193487259805204, 'subsample': 0.9748004648907735, 'colsample_bytree': 0.7723393738302731, 'gamma': 3.267833376189616, 'min_child_weight': 9}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:16] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:16] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:17] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:17] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:17] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:17,827] Trial 7 finished with value: 0.7872456964006259 and parameters: {'n_estimators': 168, 'max_depth': 9, 'learning_rate': 0.15228119056623451, 'subsample': 0.7233407597852128, 'colsample_bytree': 0.7849665986831751, 'gamma': 3.924997375084327, 'min_child_weight': 1}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:17] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:17] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:18] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:18] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:18] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:18,347] Trial 8 finished with value: 0.7843896713615024 and parameters: {'n_estimators': 147, 'max_depth': 10, 'learning_rate': 0.2515434040322003, 'subsample': 0.9640729368249625, 'colsample_bytree': 0.8271472928528218, 'gamma': 3.818291160910044, 'min_child_weight': 5}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:18] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:18] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:18] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:18] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:18] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:19,014] Trial 9 finished with value: 0.7703834115805946 and parameters: {'n_estimators': 165, 'max_depth': 8, 'learning_rate': 0.19149503558763062, 'subsample': 0.8831863863151623, 'colsample_bytree': 0.7733571385979627, 'gamma': 1.0472469294798832, 'min_child_weight': 3}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:19] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:19] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:19] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:19] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:19] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:20,015] Trial 10 finished with value: 0.7704616588419405 and parameters: {'n_estimators': 294, 'max_depth': 3, 'learning_rate': 0.1000557694222744, 'subsample': 0.8732210739606749, 'colsample_bytree': 0.9649329688307824, 'gamma': 4.932626996711289, 'min_child_weight': 7}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:20] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:20] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:20] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:20] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:20] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:20,537] Trial 11 finished with value: 0.7705007824726134 and parameters: {'n_estimators': 106, 'max_depth': 8, 'learning_rate': 0.11890911966622128, 'subsample': 0.7645475565332265, 'colsample_bytree': 0.6237212037645049, 'gamma': 4.783446440287453, 'min_child_weight': 1}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:20] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:20] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:20] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:21] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:21] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:21,354] Trial 12 finished with value: 0.7788341158059466 and parameters: {'n_estimators': 221, 'max_depth': 8, 'learning_rate': 0.21701894904555594, 'subsample': 0.7904015848110019, 'colsample_bytree': 0.9136693798102741, 'gamma': 2.533181390298716, 'min_child_weight': 4}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:21] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:21] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:21] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:22] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:22] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:22,333] Trial 13 finished with value: 0.7845461658841939 and parameters: {'n_estimators': 296, 'max_depth': 3, 'learning_rate': 0.2955339176210049, 'subsample': 0.9124957516562627, 'colsample_bytree': 0.6746429571151618, 'gamma': 4.091638832847749, 'min_child_weight': 6}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:22] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:22] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:22] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:22] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:23] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:23,141] Trial 14 finished with value: 0.7732003129890452 and parameters: {'n_estimators': 242, 'max_depth': 6, 'learning_rate': 0.09144050204187999, 'subsample': 0.7472266511526033, 'colsample_bytree': 0.8852024138523932, 'gamma': 2.680864341122538, 'min_child_weight': 3}. Best is trial 0 with value: 0.7928403755868544.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:23] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:23] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:23] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:23] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:23] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:23,618] Trial 15 finished with value: 0.8013693270735525 and parameters: {'n_estimators': 107, 'max_depth': 7, 'learning_rate': 0.15509222010293783, 'subsample': 0.8341966250909241, 'colsample_bytree': 0.6799811720307103, 'gamma': 4.300302173773948, 'min_child_weight': 1}. Best is trial 15 with value: 0.8013693270735525.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:23] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:23] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:23] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:24] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:24] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:24,176] Trial 16 finished with value: 0.7676838810641626 and parameters: {'n_estimators': 100, 'max_depth': 6, 'learning_rate': 0.015348283342775354, 'subsample': 0.8461725397584646, 'colsample_bytree': 0.6065195089580906, 'gamma': 4.427691353102282, 'min_child_weight': 3}. Best is trial 15 with value: 0.8013693270735525.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:24] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:24] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:24] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:24] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:24] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:24,912] Trial 17 finished with value: 0.7732394366197182 and parameters: {'n_estimators': 271, 'max_depth': 7, 'learning_rate': 0.19581440654634072, 'subsample': 0.9277757182333728, 'colsample_bytree': 0.6883389299541866, 'gamma': 3.0306679985808844, 'min_child_weight': 10}. Best is trial 15 with value: 0.8013693270735525.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:25] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:25] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:25] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:25] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:25] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:25,458] Trial 18 finished with value: 0.7731611893583723 and parameters: {'n_estimators': 124, 'max_depth': 4, 'learning_rate': 0.11544378151807308, 'subsample': 0.8275609135207411, 'colsample_bytree': 0.6512821605265285, 'gamma': 2.0055063707477125, 'min_child_weight': 5}. Best is trial 15 with value: 0.8013693270735525.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:25] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:25] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:25] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:25] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:26] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:26,167] Trial 19 finished with value: 0.7872456964006259 and parameters: {'n_estimators': 217, 'max_depth': 4, 'learning_rate': 0.07655917390560385, 'subsample': 0.9989677329225226, 'colsample_bytree': 0.7178089469905397, 'gamma': 4.382480415785762, 'min_child_weight': 2}. Best is trial 15 with value: 0.8013693270735525.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:26] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:26] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:26] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:26] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:26] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:26,960] Trial 20 finished with value: 0.78716744913928 and parameters: {'n_estimators': 192, 'max_depth': 6, 'learning_rate': 0.12690345180342383, 'subsample': 0.9172291651068525, 'colsample_bytree': 0.8466647154406802, 'gamma': 2.07849892599685, 'min_child_weight': 4}. Best is trial 15 with value: 0.8013693270735525.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:27] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:27] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:27] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:27] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:27] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:27,563] Trial 21 finished with value: 0.7984741784037558 and parameters: {'n_estimators': 135, 'max_depth': 9, 'learning_rate': 0.15802346478573534, 'subsample': 0.729934141086519, 'colsample_bytree': 0.9354796458643473, 'gamma': 3.7345587725520164, 'min_child_weight': 1}. Best is trial 15 with value: 0.8013693270735525.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:27] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:27] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:27] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:27] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:28] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:28,144] Trial 22 finished with value: 0.7928012519561815 and parameters: {'n_estimators': 124, 'max_depth': 9, 'learning_rate': 0.17919912639626978, 'subsample': 0.7884362047318078, 'colsample_bytree': 0.9901721565479877, 'gamma': 3.280820102219811, 'min_child_weight': 1}. Best is trial 15 with value: 0.8013693270735525.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:28] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:28] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:28] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:28] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:28] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:28,724] Trial 23 finished with value: 0.8097417840375586 and parameters: {'n_estimators': 124, 'max_depth': 9, 'learning_rate': 0.22058705075072274, 'subsample': 0.864339947284224, 'colsample_bytree': 0.9350676100727475, 'gamma': 3.676833392666307, 'min_child_weight': 2}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:28] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:28] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:29] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:29] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:29] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:29,286] Trial 24 finished with value: 0.7732394366197182 and parameters: {'n_estimators': 125, 'max_depth': 9, 'learning_rate': 0.22243512138569574, 'subsample': 0.8370079487044312, 'colsample_bytree': 0.9204023459038857, 'gamma': 4.394277783255801, 'min_child_weight': 2}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:29] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:29] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:29] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:29] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:29] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:29,949] Trial 25 finished with value: 0.7900625978090765 and parameters: {'n_estimators': 145, 'max_depth': 10, 'learning_rate': 0.2511636923378757, 'subsample': 0.754909368503687, 'colsample_bytree': 0.9489013586430046, 'gamma': 2.8184484885466357, 'min_child_weight': 1}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:30] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:30] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:30] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:30] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:30] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:30,491] Trial 26 finished with value: 0.7928403755868544 and parameters: {'n_estimators': 110, 'max_depth': 9, 'learning_rate': 0.2137134686511163, 'subsample': 0.85795944832705, 'colsample_bytree': 0.8969460796394141, 'gamma': 4.126590477535181, 'min_child_weight': 1}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:30] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:30] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:30] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:31] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:31] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:31,248] Trial 27 finished with value: 0.7901017214397497 and parameters: {'n_estimators': 136, 'max_depth': 8, 'learning_rate': 0.25596301608679217, 'subsample': 0.715890619996437, 'colsample_bytree': 0.9460705517415483, 'gamma': 3.6480824200971753, 'min_child_weight': 2}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:31] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:31] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:31] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:31] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:31] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:32,014] Trial 28 finished with value: 0.795618153364632 and parameters: {'n_estimators': 160, 'max_depth': 7, 'learning_rate': 0.16824690405353362, 'subsample': 0.7953849265980519, 'colsample_bytree': 0.9777176724008069, 'gamma': 4.602078034884611, 'min_child_weight': 2}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:32] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:32] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:32] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:32] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:32] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:32,998] Trial 29 finished with value: 0.7982785602503911 and parameters: {'n_estimators': 113, 'max_depth': 9, 'learning_rate': 0.29376498511770416, 'subsample': 0.8860505528443476, 'colsample_bytree': 0.8660933081373687, 'gamma': 3.389191285841667, 'min_child_weight': 3}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:33] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:33] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:33] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:33] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:33] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:33,608] Trial 30 finished with value: 0.7647104851330203 and parameters: {'n_estimators': 153, 'max_depth': 8, 'learning_rate': 0.13679900481174517, 'subsample': 0.7690332132714468, 'colsample_bytree': 0.9323634742212258, 'gamma': 2.1923727142570204, 'min_child_weight': 6}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:33] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:33] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:33] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:33] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:34] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:34,098] Trial 31 finished with value: 0.7928012519561815 and parameters: {'n_estimators': 115, 'max_depth': 9, 'learning_rate': 0.2989876040278467, 'subsample': 0.8836985140457718, 'colsample_bytree': 0.8829205861404752, 'gamma': 3.393010900808499, 'min_child_weight': 3}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:34] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:34] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:34] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:34] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:34] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:34,917] Trial 32 finished with value: 0.7815727699530516 and parameters: {'n_estimators': 127, 'max_depth': 10, 'learning_rate': 0.2706871124066428, 'subsample': 0.8980654626280845, 'colsample_bytree': 0.8561943067644516, 'gamma': 0.004385738310789478, 'min_child_weight': 2}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:35] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:35] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:35] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:35] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:35] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:35,476] Trial 33 finished with value: 0.7704616588419405 and parameters: {'n_estimators': 116, 'max_depth': 9, 'learning_rate': 0.23149306287017427, 'subsample': 0.6346520403003131, 'colsample_bytree': 0.9080784662818635, 'gamma': 3.0493966064708813, 'min_child_weight': 4}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:35] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:35] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:35] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:35] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:36] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:36,102] Trial 34 finished with value: 0.7817683881064162 and parameters: {'n_estimators': 181, 'max_depth': 7, 'learning_rate': 0.2747804026807658, 'subsample': 0.9393874615832765, 'colsample_bytree': 0.807193703778686, 'gamma': 3.6922668850231184, 'min_child_weight': 1}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:36] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:36] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:36] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:36] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:36] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:36,893] Trial 35 finished with value: 0.7900234741784036 and parameters: {'n_estimators': 133, 'max_depth': 10, 'learning_rate': 0.18649691114586098, 'subsample': 0.8549076843394455, 'colsample_bytree': 0.8696084922208136, 'gamma': 4.004503661948333, 'min_child_weight': 3}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:37] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:37] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:37] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:37] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:37] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:37,446] Trial 36 finished with value: 0.7956181533646323 and parameters: {'n_estimators': 103, 'max_depth': 8, 'learning_rate': 0.16743606601719357, 'subsample': 0.8164129932493427, 'colsample_bytree': 0.9973458236560143, 'gamma': 3.035015154053137, 'min_child_weight': 2}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:37] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:37] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:37] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:37] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:37] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:37,976] Trial 37 finished with value: 0.7984350547730829 and parameters: {'n_estimators': 115, 'max_depth': 9, 'learning_rate': 0.2051096712242503, 'subsample': 0.7025995069408355, 'colsample_bytree': 0.8368385336442928, 'gamma': 4.167002573492533, 'min_child_weight': 2}. Best is trial 23 with value: 0.8097417840375586.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:38] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:38] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:38] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:38] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:38] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:38,527] Trial 38 finished with value: 0.8125586854460094 and parameters: {'n_estimators': 137, 'max_depth': 10, 'learning_rate': 0.2026324104011309, 'subsample': 0.6778800931845276, 'colsample_bytree': 0.7348668789339975, 'gamma': 4.207512174962662, 'min_child_weight': 1}. Best is trial 38 with value: 0.8125586854460094.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:38] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:38] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:38] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:38] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:39] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:39,080] Trial 39 finished with value: 0.7872848200312988 and parameters: {'n_estimators': 154, 'max_depth': 10, 'learning_rate': 0.15496208561948452, 'subsample': 0.6649517963161755, 'colsample_bytree': 0.7549607907457834, 'gamma': 4.6898436701573445, 'min_child_weight': 1}. Best is trial 38 with value: 0.8125586854460094.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:39] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:39] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:39] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:39] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:39] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:39,749] Trial 40 finished with value: 0.7816118935837245 and parameters: {'n_estimators': 137, 'max_depth': 5, 'learning_rate': 0.22795232218347197, 'subsample': 0.6135623583417823, 'colsample_bytree': 0.7291560792846511, 'gamma': 3.7667226677851717, 'min_child_weight': 1}. Best is trial 38 with value: 0.8125586854460094.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:39] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:39] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:40] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:40] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:40] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:40,289] Trial 41 finished with value: 0.8153364632237873 and parameters: {'n_estimators': 118, 'max_depth': 10, 'learning_rate': 0.2018043038409303, 'subsample': 0.6880627534310946, 'colsample_bytree': 0.6997907787750566, 'gamma': 4.244422178623001, 'min_child_weight': 2}. Best is trial 41 with value: 0.8153364632237873.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:40] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:40] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:40] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:40] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:40] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:40,873] Trial 42 finished with value: 0.8097809076682315 and parameters: {'n_estimators': 144, 'max_depth': 10, 'learning_rate': 0.17874954307615912, 'subsample': 0.6582747851968154, 'colsample_bytree': 0.69230502239607, 'gamma': 4.959004123074357, 'min_child_weight': 1}. Best is trial 41 with value: 0.8153364632237873.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:40] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:41] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:41] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:41] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:41] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:41,703] Trial 43 finished with value: 0.7928403755868544 and parameters: {'n_estimators': 175, 'max_depth': 10, 'learning_rate': 0.2389080132883306, 'subsample': 0.6688945339820137, 'colsample_bytree': 0.6990747614732045, 'gamma': 4.948383031801752, 'min_child_weight': 2}. Best is trial 41 with value: 0.8153364632237873.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:41] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:42] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:42] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:42] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:42] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:42,419] Trial 44 finished with value: 0.7872456964006259 and parameters: {'n_estimators': 146, 'max_depth': 10, 'learning_rate': 0.20252476897963434, 'subsample': 0.6031075041660008, 'colsample_bytree': 0.6542156877268607, 'gamma': 4.543239835954912, 'min_child_weight': 1}. Best is trial 41 with value: 0.8153364632237873.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:42] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:42] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:42] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:42] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:42] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:43,073] Trial 45 finished with value: 0.784467918622848 and parameters: {'n_estimators': 157, 'max_depth': 10, 'learning_rate': 0.17710260897145358, 'subsample': 0.641798563251784, 'colsample_bytree': 0.7335910791005125, 'gamma': 4.288202225764162, 'min_child_weight': 4}. Best is trial 41 with value: 0.8153364632237873.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:43] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:43] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:43] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:43] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:43] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:43,889] Trial 46 finished with value: 0.8041471048513301 and parameters: {'n_estimators': 121, 'max_depth': 10, 'learning_rate': 0.209077613355545, 'subsample': 0.6870795978160933, 'colsample_bytree': 0.6606050869785599, 'gamma': 4.781062539514487, 'min_child_weight': 1}. Best is trial 41 with value: 0.8153364632237873.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:43] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:44] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:44] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:44] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:44] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:44,411] Trial 47 finished with value: 0.8041079812206572 and parameters: {'n_estimators': 127, 'max_depth': 10, 'learning_rate': 0.2058312627557447, 'subsample': 0.6856849956291882, 'colsample_bytree': 0.6580892177481774, 'gamma': 4.97930437515544, 'min_child_weight': 2}. Best is trial 41 with value: 0.8153364632237873.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:44] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:44] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:44] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:45] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:45] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:45,232] Trial 48 finished with value: 0.7816510172143974 and parameters: {'n_estimators': 201, 'max_depth': 10, 'learning_rate': 0.18653875223397853, 'subsample': 0.6877570945204995, 'colsample_bytree': 0.7070581253146662, 'gamma': 4.735051147184525, 'min_child_weight': 7}. Best is trial 41 with value: 0.8153364632237873.
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:45] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:45] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:45] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:45] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:09:45] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-02 00:09:45,815] Trial 49 finished with value: 0.7816510172143974 and parameters: {'n_estimators': 141, 'max_depth': 10, 'learning_rate': 0.2385572266567871, 'subsample': 0.6305144637077972, 'colsample_bytree': 0.630001899331563, 'gamma': 3.9180241587295352, 'min_child_weight': 3}. Best is trial 41 with value: 0.8153364632237873.
+✅ Best XGB Params: {'n_estimators': 118, 'max_depth': 10, 'learning_rate': 0.2018043038409303, 'subsample': 0.6880627534310946, 'colsample_bytree': 0.6997907787750566, 'gamma': 4.244422178623001, 'min_child_weight': 2}
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [00:11:49] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)

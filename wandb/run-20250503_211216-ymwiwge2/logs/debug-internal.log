@@ -1,0 +1,17 @@
+{"time":"2025-05-03T21:12:16.076043+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\diabetes_project_MLOPS\\diabetes_project_MLOPS\\wandb\\run-20250503_211216-ymwiwge2\\logs\\debug-core.log"}
+{"time":"2025-05-03T21:12:16.378593+07:00","level":"INFO","msg":"created new stream","id":"ymwiwge2"}
+{"time":"2025-05-03T21:12:16.378593+07:00","level":"INFO","msg":"stream: started","id":"ymwiwge2"}
+{"time":"2025-05-03T21:12:16.3801065+07:00","level":"INFO","msg":"handler: started","stream_id":"ymwiwge2"}
+{"time":"2025-05-03T21:12:16.3830987+07:00","level":"INFO","msg":"sender: started","stream_id":"ymwiwge2"}
+{"time":"2025-05-03T21:12:16.3830987+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ymwiwge2"}
+{"time":"2025-05-03T21:12:17.0034084+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-03T21:12:20.9753249+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-03T21:12:53.0812991+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-03T21:12:53.0882826+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-03T21:12:54.1057765+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\html\\eda_report_0_62c35759ea9984553877.html","runtime_seconds":0.7703948,"progress":"1.4MB/7.2MB"},{"desc":"uploading config.yaml","runtime_seconds":0.2287323,"progress":"440B/440B"}],"total_operations":2}}
+{"time":"2025-05-03T21:12:55.9807232+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-03T21:12:56.4103238+07:00","level":"INFO","msg":"stream: closing","id":"ymwiwge2"}
+{"time":"2025-05-03T21:12:56.4103238+07:00","level":"INFO","msg":"handler: closed","stream_id":"ymwiwge2"}
+{"time":"2025-05-03T21:12:56.4103238+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ymwiwge2"}
+{"time":"2025-05-03T21:12:56.4118566+07:00","level":"INFO","msg":"sender: closed","stream_id":"ymwiwge2"}
+{"time":"2025-05-03T21:12:56.4118566+07:00","level":"INFO","msg":"stream: closed","id":"ymwiwge2"}

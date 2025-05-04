@@ -1,0 +1,16 @@
+{"time":"2025-05-03T21:09:26.1140625+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\diabetes_project_MLOPS\\diabetes_project_MLOPS\\wandb\\run-20250503_210926-xu0zxfqj\\logs\\debug-core.log"}
+{"time":"2025-05-03T21:09:26.2373079+07:00","level":"INFO","msg":"created new stream","id":"xu0zxfqj"}
+{"time":"2025-05-03T21:09:26.2378029+07:00","level":"INFO","msg":"stream: started","id":"xu0zxfqj"}
+{"time":"2025-05-03T21:09:26.2383089+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"xu0zxfqj"}
+{"time":"2025-05-03T21:09:26.2383089+07:00","level":"INFO","msg":"handler: started","stream_id":"xu0zxfqj"}
+{"time":"2025-05-03T21:09:26.2392186+07:00","level":"INFO","msg":"sender: started","stream_id":"xu0zxfqj"}
+{"time":"2025-05-03T21:09:26.7709621+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-03T21:09:27.7375881+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-03T21:09:27.7422258+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-03T21:09:28.7611561+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.3479787,"progress":"440B/440B"}],"total_operations":1}}
+{"time":"2025-05-03T21:09:28.9316821+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-03T21:09:29.4529514+07:00","level":"INFO","msg":"stream: closing","id":"xu0zxfqj"}
+{"time":"2025-05-03T21:09:29.4529514+07:00","level":"INFO","msg":"handler: closed","stream_id":"xu0zxfqj"}
+{"time":"2025-05-03T21:09:29.4529514+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xu0zxfqj"}
+{"time":"2025-05-03T21:09:29.4709349+07:00","level":"INFO","msg":"sender: closed","stream_id":"xu0zxfqj"}
+{"time":"2025-05-03T21:09:29.4714422+07:00","level":"INFO","msg":"stream: closed","id":"xu0zxfqj"}

@@ -1,0 +1,29 @@
+{
+  "os":  "Windows-10-10.0.22621-SP0",
+  "python":  "CPython 3.11.7",
+  "startedAt":  "2025-05-02T09:53:49.901411Z",
+  "args":  [
+    "source.api.main:app",
+    "--reload"
+  ],
+  "program":  "<python with no main file>",
+  "email":  "ngocnhi.p4work@gmail.com",
+  "root":  "C:\\Users\\Admin\\Desktop\\MLOps\\diabetes_project_MLOPS",
+  "host":  "PC-",
+  "executable":  "C:\\Users\\Admin\\anaconda3\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "161062318080",
+      "used":  "145649004544"
+    }
+  },
+  "memory":  {
+    "total":  "16905965568"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

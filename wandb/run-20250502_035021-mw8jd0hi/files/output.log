@@ -1,0 +1,7 @@
+02-05-2025 03:50:24 Downloading and reading artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+02-05-2025 03:50:27 Splitting data into train and test
+02-05-2025 03:50:27 Uploading the train dataset to train.csv
+02-05-2025 03:50:27 Logging artifact
+02-05-2025 03:50:32 Uploading the test dataset to test.csv
+02-05-2025 03:50:32 Logging artifact

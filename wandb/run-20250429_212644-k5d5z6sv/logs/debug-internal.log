@@ -1,0 +1,17 @@
+{"time":"2025-04-29T21:26:44.5759159+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\Admin\\Desktop\\MLOps\\Project\\wandb\\run-20250429_212644-k5d5z6sv\\logs\\debug-core.log"}
+{"time":"2025-04-29T21:26:44.9088205+07:00","level":"INFO","msg":"created new stream","id":"k5d5z6sv"}
+{"time":"2025-04-29T21:26:44.9091407+07:00","level":"INFO","msg":"sender: started","stream_id":"k5d5z6sv"}
+{"time":"2025-04-29T21:26:44.9091407+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"k5d5z6sv"}
+{"time":"2025-04-29T21:26:44.9091407+07:00","level":"INFO","msg":"stream: started","id":"k5d5z6sv"}
+{"time":"2025-04-29T21:26:44.9091407+07:00","level":"INFO","msg":"handler: started","stream_id":"k5d5z6sv"}
+{"time":"2025-04-29T21:26:45.3326906+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T21:26:47.8670129+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-04-29T21:26:48.7996193+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-29T21:26:48.7996193+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-29T21:26:49.8084386+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.1985354,"progress":"445B/445B"}],"total_operations":1}}
+{"time":"2025-04-29T21:26:50.3169088+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-29T21:26:50.6943245+07:00","level":"INFO","msg":"stream: closing","id":"k5d5z6sv"}
+{"time":"2025-04-29T21:26:50.6943245+07:00","level":"INFO","msg":"handler: closed","stream_id":"k5d5z6sv"}
+{"time":"2025-04-29T21:26:50.6943245+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"k5d5z6sv"}
+{"time":"2025-04-29T21:26:50.6943245+07:00","level":"INFO","msg":"sender: closed","stream_id":"k5d5z6sv"}
+{"time":"2025-04-29T21:26:50.6989687+07:00","level":"INFO","msg":"stream: closed","id":"k5d5z6sv"}

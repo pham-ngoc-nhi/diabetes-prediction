@@ -1,0 +1,16 @@
+{"time":"2025-05-02T16:55:25.9724927+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Admin\\Desktop\\MLOps\\diabetes_project_MLOPS\\wandb\\run-20250502_165525-56q10qvk\\logs\\debug-core.log"}
+{"time":"2025-05-02T16:55:26.1639359+07:00","level":"INFO","msg":"created new stream","id":"56q10qvk"}
+{"time":"2025-05-02T16:55:26.1644406+07:00","level":"INFO","msg":"stream: started","id":"56q10qvk"}
+{"time":"2025-05-02T16:55:26.1644406+07:00","level":"INFO","msg":"handler: started","stream_id":"56q10qvk"}
+{"time":"2025-05-02T16:55:26.1644406+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"56q10qvk"}
+{"time":"2025-05-02T16:55:26.1644406+07:00","level":"INFO","msg":"sender: started","stream_id":"56q10qvk"}
+{"time":"2025-05-02T16:55:27.6779022+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-02T16:55:28.2071264+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-02T16:55:28.2076357+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-02T16:55:29.2231002+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.0224301,"progress":"335B/335B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.0224301,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-05-02T16:55:29.8329195+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-02T16:55:30.2872115+07:00","level":"INFO","msg":"stream: closing","id":"56q10qvk"}
+{"time":"2025-05-02T16:55:30.2872115+07:00","level":"INFO","msg":"handler: closed","stream_id":"56q10qvk"}
+{"time":"2025-05-02T16:55:30.2872115+07:00","level":"INFO","msg":"sender: closed","stream_id":"56q10qvk"}
+{"time":"2025-05-02T16:55:30.2872115+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"56q10qvk"}
+{"time":"2025-05-02T16:55:30.2872115+07:00","level":"INFO","msg":"stream: closed","id":"56q10qvk"}

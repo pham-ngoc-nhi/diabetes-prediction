@@ -1,0 +1,44 @@
+{"time":"2025-05-03T23:29:14.1587264+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\diabetes_project_MLOPS\\diabetes_project_MLOPS\\wandb\\run-20250503_232914-hhn562u5\\logs\\debug-core.log"}
+{"time":"2025-05-03T23:29:14.2828674+07:00","level":"INFO","msg":"created new stream","id":"hhn562u5"}
+{"time":"2025-05-03T23:29:14.2828674+07:00","level":"INFO","msg":"stream: started","id":"hhn562u5"}
+{"time":"2025-05-03T23:29:14.2848608+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"hhn562u5"}
+{"time":"2025-05-03T23:29:14.2855369+07:00","level":"INFO","msg":"handler: started","stream_id":"hhn562u5"}
+{"time":"2025-05-03T23:29:14.2860456+07:00","level":"INFO","msg":"sender: started","stream_id":"hhn562u5"}
+{"time":"2025-05-03T23:29:14.7736826+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-03T23:29:17.1900567+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-03T23:35:08.5299316+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:44:54.4156391+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:44:54.4674766+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:45:03.4902308+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:45:03.5200949+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:45:12.3095313+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:45:12.3095313+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:46:12.5203401+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:46:12.5203401+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:46:14.9873348+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:46:37.8912679+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:46:37.9137611+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:46:37.9137611+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:46:37.9327103+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:46:37.9406889+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:46:37.9416869+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:46:37.9752967+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:46:38.0171501+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:46:38.0181468+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:46:38.1059636+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:46:38.1059636+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:46:38.1424742+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:46:38.1424742+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:46:38.1682811+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:46:38.1682811+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T23:46:38.2241607+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T23:46:39.7185407+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-04T00:00:03.8135689+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-04T00:00:03.8271539+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-04T00:00:04.8208184+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact final_model.pkl","runtime_seconds":1.0165833},{"desc":"uploading output.log","runtime_seconds":0.4570622,"progress":"288.0KB/1.3MB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4570622,"progress":"27B/27B"},{"desc":"uploading config.yaml","runtime_seconds":0.0659584,"progress":"625B/625B"}],"total_operations":4}}
+{"time":"2025-05-04T00:00:07.668793+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-04T00:00:08.1946774+07:00","level":"INFO","msg":"stream: closing","id":"hhn562u5"}
+{"time":"2025-05-04T00:00:08.1946774+07:00","level":"INFO","msg":"handler: closed","stream_id":"hhn562u5"}
+{"time":"2025-05-04T00:00:08.1946774+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hhn562u5"}
+{"time":"2025-05-04T00:00:08.1957334+07:00","level":"INFO","msg":"sender: closed","stream_id":"hhn562u5"}
+{"time":"2025-05-04T00:00:08.1957334+07:00","level":"INFO","msg":"stream: closed","id":"hhn562u5"}

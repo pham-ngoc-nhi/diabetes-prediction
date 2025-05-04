@@ -1,0 +1,17 @@
+{"time":"2025-05-03T22:33:50.8141276+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\diabetes_project_MLOPS\\diabetes_project_MLOPS\\wandb\\run-20250503_223350-w7ojj2dw\\logs\\debug-core.log"}
+{"time":"2025-05-03T22:33:50.9952289+07:00","level":"INFO","msg":"created new stream","id":"w7ojj2dw"}
+{"time":"2025-05-03T22:33:50.9952289+07:00","level":"INFO","msg":"stream: started","id":"w7ojj2dw"}
+{"time":"2025-05-03T22:33:50.9957357+07:00","level":"INFO","msg":"handler: started","stream_id":"w7ojj2dw"}
+{"time":"2025-05-03T22:33:50.9957357+07:00","level":"INFO","msg":"sender: started","stream_id":"w7ojj2dw"}
+{"time":"2025-05-03T22:33:50.9957357+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"w7ojj2dw"}
+{"time":"2025-05-03T22:33:51.360148+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-03T22:33:53.1662484+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-03T22:33:54.3038123+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-03T22:33:54.3048097+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-03T22:33:55.3163193+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7363863,"progress":"47B/47B"},{"desc":"uploading config.yaml","runtime_seconds":0.4640202,"progress":"522B/522B"}],"total_operations":2}}
+{"time":"2025-05-03T22:33:55.6317534+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-03T22:33:56.0479412+07:00","level":"INFO","msg":"stream: closing","id":"w7ojj2dw"}
+{"time":"2025-05-03T22:33:56.0479412+07:00","level":"INFO","msg":"handler: closed","stream_id":"w7ojj2dw"}
+{"time":"2025-05-03T22:33:56.0479412+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"w7ojj2dw"}
+{"time":"2025-05-03T22:33:56.0502134+07:00","level":"INFO","msg":"sender: closed","stream_id":"w7ojj2dw"}
+{"time":"2025-05-03T22:33:56.0502134+07:00","level":"INFO","msg":"stream: closed","id":"w7ojj2dw"}

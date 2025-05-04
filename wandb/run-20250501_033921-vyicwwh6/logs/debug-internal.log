@@ -1,0 +1,16 @@
+{"time":"2025-05-01T03:39:22.0226914+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250501_033921-vyicwwh6\\logs\\debug-core.log"}
+{"time":"2025-05-01T03:39:24.1748256+07:00","level":"INFO","msg":"created new stream","id":"vyicwwh6"}
+{"time":"2025-05-01T03:39:24.1748256+07:00","level":"INFO","msg":"stream: started","id":"vyicwwh6"}
+{"time":"2025-05-01T03:39:24.1748256+07:00","level":"INFO","msg":"handler: started","stream_id":"vyicwwh6"}
+{"time":"2025-05-01T03:39:24.1748256+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"vyicwwh6"}
+{"time":"2025-05-01T03:39:24.1748256+07:00","level":"INFO","msg":"sender: started","stream_id":"vyicwwh6"}
+{"time":"2025-05-01T03:39:24.6818227+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-01T03:39:27.3291183+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-01T03:39:27.3366205+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-01T03:39:28.4228187+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.316299,"progress":"24B/24B"}],"total_operations":1}}
+{"time":"2025-05-01T03:39:29.0959458+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-01T03:39:29.6875199+07:00","level":"INFO","msg":"stream: closing","id":"vyicwwh6"}
+{"time":"2025-05-01T03:39:29.6875199+07:00","level":"INFO","msg":"handler: closed","stream_id":"vyicwwh6"}
+{"time":"2025-05-01T03:39:29.6875199+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vyicwwh6"}
+{"time":"2025-05-01T03:39:29.6885169+07:00","level":"INFO","msg":"sender: closed","stream_id":"vyicwwh6"}
+{"time":"2025-05-01T03:39:29.6885169+07:00","level":"INFO","msg":"stream: closed","id":"vyicwwh6"}

@@ -1,0 +1,22 @@
+2025-04-29 21:28:19,733 INFO    MainThread:47700 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-04-29 21:28:19,733 INFO    MainThread:47700 [wandb_setup.py:_flush():68] Configure stats pid to 47700
+2025-04-29 21:28:19,734 INFO    MainThread:47700 [wandb_setup.py:_flush():68] Loading settings from C:\Users\Admin\.config\wandb\settings
+2025-04-29 21:28:19,734 INFO    MainThread:47700 [wandb_setup.py:_flush():68] Loading settings from c:\Users\Admin\Desktop\MLOps\Project\wandb\settings
+2025-04-29 21:28:19,734 INFO    MainThread:47700 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-04-29 21:28:19,734 INFO    MainThread:47700 [wandb_init.py:setup_run_log_directory():724] Logging user logs to c:\Users\Admin\Desktop\MLOps\Project\wandb\run-20250429_212819-ngxdtpn1\logs\debug.log
+2025-04-29 21:28:19,735 INFO    MainThread:47700 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to c:\Users\Admin\Desktop\MLOps\Project\wandb\run-20250429_212819-ngxdtpn1\logs\debug-internal.log
+2025-04-29 21:28:19,735 INFO    MainThread:47700 [wandb_init.py:init():852] calling init triggers
+2025-04-29 21:28:19,735 INFO    MainThread:47700 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-29 21:28:19,735 INFO    MainThread:47700 [wandb_init.py:init():893] starting backend
+2025-04-29 21:28:19,735 INFO    MainThread:47700 [wandb_init.py:init():897] sending inform_init request
+2025-04-29 21:28:19,755 INFO    MainThread:47700 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-29 21:28:19,756 INFO    MainThread:47700 [wandb_init.py:init():907] backend started and connected
+2025-04-29 21:28:19,757 INFO    MainThread:47700 [wandb_init.py:init():1002] updated telemetry
+2025-04-29 21:28:19,761 INFO    MainThread:47700 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-04-29 21:28:20,828 INFO    MainThread:47700 [wandb_init.py:init():1101] starting run threads in backend
+2025-04-29 21:28:21,052 INFO    MainThread:47700 [wandb_run.py:_console_start():2566] atexit reg
+2025-04-29 21:28:21,052 INFO    MainThread:47700 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-04-29 21:28:21,053 INFO    MainThread:47700 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-04-29 21:28:21,053 INFO    MainThread:47700 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-04-29 21:28:21,057 INFO    MainThread:47700 [wandb_init.py:init():1147] run started, returning control to user process

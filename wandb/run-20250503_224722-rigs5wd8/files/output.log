@@ -1,0 +1,5 @@
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+03-05-2025 22:47:26 Loaded dataset with shape: (768, 9)
+03-05-2025 22:47:26 Train shape: (537, 9), Test shape: (231, 9)
+03-05-2025 22:47:29 Uploaded train.csv to W&B
+03-05-2025 22:47:33 Uploaded test.csv to W&B

@@ -1,0 +1,63 @@
+{"time":"2025-04-29T21:21:27.7451719+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\Admin\\Desktop\\MLOps\\Project\\wandb\\run-20250429_212127-fmi7egnf\\logs\\debug-core.log"}
+{"time":"2025-04-29T21:21:28.2113302+07:00","level":"INFO","msg":"created new stream","id":"fmi7egnf"}
+{"time":"2025-04-29T21:21:28.2113302+07:00","level":"INFO","msg":"stream: started","id":"fmi7egnf"}
+{"time":"2025-04-29T21:21:28.2113302+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"fmi7egnf"}
+{"time":"2025-04-29T21:21:28.2118443+07:00","level":"INFO","msg":"handler: started","stream_id":"fmi7egnf"}
+{"time":"2025-04-29T21:21:28.2118443+07:00","level":"INFO","msg":"sender: started","stream_id":"fmi7egnf"}
+{"time":"2025-04-29T21:21:28.659808+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T21:21:31.266004+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-04-29T21:21:43.6761532+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:21:58.6823338+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:22:13.6913802+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:22:28.6836928+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:22:43.6777743+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:22:58.6801635+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:23:13.6747202+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:23:28.6809404+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:23:43.68146+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:23:58.675019+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:24:13.6740691+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:24:28.6828663+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:24:43.6785574+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:24:58.691205+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:25:13.6795615+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:25:28.6964212+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:25:43.6757047+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:25:58.6754354+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:26:13.677616+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:26:28.6771172+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:26:43.6752651+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:26:58.67475+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:27:13.6778632+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:27:28.6762075+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:27:43.6917057+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:27:58.6810744+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:28:13.6800762+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:28:28.6778182+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:28:43.6769887+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:28:58.6749044+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:29:13.6836549+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:29:28.677871+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:29:43.6799294+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:29:58.6817972+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:30:13.6762758+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:30:28.6773842+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:30:43.6776656+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:30:58.6753391+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:31:13.676143+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:31:28.6776429+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:31:43.6786032+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:31:58.6760229+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:32:13.6806664+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:32:28.6780866+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:32:43.6818572+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:32:58.6738291+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:33:13.6770166+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:33:28.6736623+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:33:43.6785785+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:33:58.6751358+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:34:13.6919351+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:34:28.682772+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:34:43.6767409+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:34:58.6754942+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}
+{"time":"2025-04-29T21:35:13.6813508+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 40052"}

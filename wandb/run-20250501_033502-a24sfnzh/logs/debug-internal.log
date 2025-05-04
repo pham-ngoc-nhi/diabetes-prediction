@@ -1,0 +1,16 @@
+{"time":"2025-05-01T03:35:02.8488393+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250501_033502-a24sfnzh\\logs\\debug-core.log"}
+{"time":"2025-05-01T03:35:02.9721306+07:00","level":"INFO","msg":"created new stream","id":"a24sfnzh"}
+{"time":"2025-05-01T03:35:02.9726432+07:00","level":"INFO","msg":"stream: started","id":"a24sfnzh"}
+{"time":"2025-05-01T03:35:02.9726432+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"a24sfnzh"}
+{"time":"2025-05-01T03:35:02.9726432+07:00","level":"INFO","msg":"handler: started","stream_id":"a24sfnzh"}
+{"time":"2025-05-01T03:35:02.9726432+07:00","level":"INFO","msg":"sender: started","stream_id":"a24sfnzh"}
+{"time":"2025-05-01T03:35:03.4670292+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-01T03:35:05.4448081+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-01T03:35:05.4464444+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-01T03:35:06.4640823+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3816891},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3816891,"progress":"24B/24B"},{"desc":"uploading config.yaml","runtime_seconds":0.1122242,"progress":"471B/471B"}],"total_operations":3}}
+{"time":"2025-05-01T03:35:07.7477023+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-01T03:35:08.1619655+07:00","level":"INFO","msg":"stream: closing","id":"a24sfnzh"}
+{"time":"2025-05-01T03:35:08.1619655+07:00","level":"INFO","msg":"handler: closed","stream_id":"a24sfnzh"}
+{"time":"2025-05-01T03:35:08.1619655+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"a24sfnzh"}
+{"time":"2025-05-01T03:35:08.1619655+07:00","level":"INFO","msg":"sender: closed","stream_id":"a24sfnzh"}
+{"time":"2025-05-01T03:35:08.1619655+07:00","level":"INFO","msg":"stream: closed","id":"a24sfnzh"}

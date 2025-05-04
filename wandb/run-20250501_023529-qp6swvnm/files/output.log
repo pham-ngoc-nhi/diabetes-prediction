@@ -1,0 +1,567 @@
+01-05-2025 02:35:31 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 02:35:34 Spliting data into train/val
+01-05-2025 02:35:34 x train: (375, 28)
+01-05-2025 02:35:34 y train: (375,)
+01-05-2025 02:35:34 x val: (162, 28)
+01-05-2025 02:35:34 y val: (162,)
+01-05-2025 02:35:34 Outlier Removal
+01-05-2025 02:35:34 x_train shape [original]: (375, 28)
+01-05-2025 02:35:34 x_train shape [outlier removal]: (357, 28)
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 02:40:01 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 02:40:03 Spliting data into train/val
+01-05-2025 02:40:03 x train: (375, 28)
+01-05-2025 02:40:03 y train: (375,)
+01-05-2025 02:40:03 x val: (162, 28)
+01-05-2025 02:40:03 y val: (162,)
+01-05-2025 02:40:03 Outlier Removal
+01-05-2025 02:40:03 x_train shape [original]: (375, 28)
+01-05-2025 02:40:03 x_train shape [outlier removal]: (357, 28)
+01-05-2025 02:40:05 Data after SMOTE: (476, 28)
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 02:41:26 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 02:41:28 Spliting data into train/val
+01-05-2025 02:41:28 x train: (375, 28)
+01-05-2025 02:41:28 y train: (375,)
+01-05-2025 02:41:28 x val: (162, 28)
+01-05-2025 02:41:28 y val: (162,)
+01-05-2025 02:41:28 Outlier Removal
+01-05-2025 02:41:28 x_train shape [original]: (375, 28)
+01-05-2025 02:41:28 x_train shape [outlier removal]: (357, 28)
+01-05-2025 02:41:28 Data after SMOTE: (476, 28)
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 02:43:22 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 02:43:25 Spliting data into train/val
+01-05-2025 02:43:25 x train: (375, 28)
+01-05-2025 02:43:25 y train: (375,)
+01-05-2025 02:43:25 x val: (162, 28)
+01-05-2025 02:43:25 y val: (162,)
+01-05-2025 02:43:25 Outlier Removal
+01-05-2025 02:43:25 x_train shape [original]: (375, 28)
+01-05-2025 02:43:25 x_train shape [outlier removal]: (357, 28)
+01-05-2025 02:43:26 Data after SMOTE: (476, 28)
+01-05-2025 02:44:25 [Logistic] Accuracy: 0.7469135802469136
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 02:47:09 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 02:47:11 Spliting data into train/val
+01-05-2025 02:47:11 x train: (375, 28)
+01-05-2025 02:47:11 y train: (375,)
+01-05-2025 02:47:11 x val: (162, 28)
+01-05-2025 02:47:11 y val: (162,)
+01-05-2025 02:47:11 Outlier Removal
+01-05-2025 02:47:11 x_train shape [original]: (375, 28)
+01-05-2025 02:47:11 x_train shape [outlier removal]: (357, 28)
+01-05-2025 02:47:12 Data after SMOTE: (476, 28)
+01-05-2025 02:47:12 [Logistic] Accuracy: 0.7469135802469136
+01-05-2025 02:47:12 [Random Forest] Accuracy: 0.7222222222222222
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [02:47:13] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+01-05-2025 02:47:13 [XGBoost] Accuracy: 0.7222222222222222
+                 Model  Accuracy
+0  Logistic Regression  0.746914
+1        Random Forest  0.722222
+2              XGBoost  0.722222
+Observations: 476
+Variables: 28
+cat_cols: 18
+num_cols: 10
+cat_but_car: 0
+num_but_cat: 18
+Observations: 476
+Variables: 28
+cat_cols: 18
+num_cols: 10
+cat_but_car: 0
+num_but_cat: 18
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 03:17:26 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 03:17:29 Spliting data into train/val
+01-05-2025 03:17:29 x train: (375, 28)
+01-05-2025 03:17:29 y train: (375,)
+01-05-2025 03:17:29 x val: (162, 28)
+01-05-2025 03:17:29 y val: (162,)
+01-05-2025 03:17:29 Outlier Removal
+01-05-2025 03:17:30 x_train shape [original]: (375, 28)
+01-05-2025 03:17:30 x_train shape [outlier removal]: (357, 28)
+01-05-2025 03:17:30 Data after SMOTE: (476, 28)
+Observations: 476
+Variables: 28
+cat_cols: 18
+num_cols: 10
+cat_but_car: 0
+num_but_cat: 18
+01-05-2025 03:17:31 [Logistic] Accuracy: 0.7469135802469136
+01-05-2025 03:17:32 [Random Forest] Accuracy: 0.7222222222222222
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [03:17:32] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+01-05-2025 03:17:32 [XGBoost] Accuracy: 0.7222222222222222
+                 Model  Accuracy
+0  Logistic Regression  0.746914
+1        Random Forest  0.722222
+2              XGBoost  0.722222
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 03:28:06 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 03:28:12 Spliting data into train/val
+01-05-2025 03:28:12 x train: (375, 18)
+01-05-2025 03:28:12 y train: (375,)
+01-05-2025 03:28:12 x val: (162, 18)
+01-05-2025 03:28:12 y val: (162,)
+01-05-2025 03:28:13 Outlier Removal
+01-05-2025 03:28:13 x_train shape [original]: (375, 18)
+01-05-2025 03:28:13 x_train shape [outlier removal]: (357, 18)
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 03:31:53 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 03:31:55 Spliting data into train/val
+01-05-2025 03:31:55 x train: (375, 18)
+01-05-2025 03:31:55 y train: (375,)
+01-05-2025 03:31:55 x val: (162, 18)
+01-05-2025 03:31:55 y val: (162,)
+01-05-2025 03:31:55 Outlier Removal
+01-05-2025 03:31:55 x_train shape [original]: (375, 18)
+01-05-2025 03:31:55 x_train shape [outlier removal]: (357, 18)
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 03:40:58 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 03:41:00 Spliting data into train/val
+01-05-2025 03:41:00 x train: (375, 18)
+01-05-2025 03:41:00 y train: (375,)
+01-05-2025 03:41:00 x val: (162, 18)
+01-05-2025 03:41:00 y val: (162,)
+01-05-2025 03:41:01 Outlier Removal
+01-05-2025 03:41:01 x_train shape [original]: (375, 18)
+01-05-2025 03:41:01 x_train shape [outlier removal]: (357, 18)
+Observations: 476
+Variables: 28
+cat_cols: 18
+num_cols: 10
+cat_but_car: 0
+num_but_cat: 18
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 03:49:31 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 03:49:34 Spliting data into train/val
+01-05-2025 03:49:34 x train: (375, 18)
+01-05-2025 03:49:34 y train: (375,)
+01-05-2025 03:49:34 x val: (162, 18)
+01-05-2025 03:49:34 y val: (162,)
+01-05-2025 03:49:35 Outlier Removal
+01-05-2025 03:49:35 x_train shape [original]: (375, 18)
+01-05-2025 03:49:35 x_train shape [outlier removal]: (357, 18)
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 03:50:35 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 03:50:39 Spliting data into train/val
+01-05-2025 03:50:40 x train: (375, 18)
+01-05-2025 03:50:40 y train: (375,)
+01-05-2025 03:50:40 x val: (162, 18)
+01-05-2025 03:50:40 y val: (162,)
+01-05-2025 03:50:41 Outlier Removal
+01-05-2025 03:50:41 x_train shape [original]: (375, 18)
+01-05-2025 03:50:41 x_train shape [outlier removal]: (357, 18)
+Observations: 357
+Variables: 18
+cat_cols: 8
+num_cols: 10
+cat_but_car: 0
+num_but_cat: 2
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 04:02:21 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 04:02:24 Spliting data into train/val
+01-05-2025 04:02:24 x train: (375, 18)
+01-05-2025 04:02:24 y train: (375,)
+01-05-2025 04:02:24 x val: (162, 18)
+01-05-2025 04:02:24 y val: (162,)
+01-05-2025 04:02:24 Outlier Removal
+01-05-2025 04:02:24 x_train shape [original]: (375, 18)
+01-05-2025 04:02:24 x_train shape [outlier removal]: (357, 18)
+Observations: 357
+Variables: 18
+cat_cols: 8
+num_cols: 10
+cat_but_car: 0
+num_but_cat: 2
+Observations: 357
+Variables: 18
+cat_cols: 8
+num_cols: 10
+cat_but_car: 0
+num_but_cat: 2
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\base.py:486: UserWarning: X has feature names, but StandardScaler was fitted without feature names
+  warnings.warn(
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 04:08:25 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 04:08:28 Spliting data into train/val
+01-05-2025 04:08:28 x train: (375, 18)
+01-05-2025 04:08:28 y train: (375,)
+01-05-2025 04:08:28 x val: (162, 18)
+01-05-2025 04:08:28 y val: (162,)
+01-05-2025 04:08:28 Outlier Removal
+01-05-2025 04:08:28 x_train shape [original]: (375, 18)
+01-05-2025 04:08:28 x_train shape [outlier removal]: (357, 18)
+Observations: 357
+Variables: 18
+cat_cols: 8
+num_cols: 10
+cat_but_car: 0
+num_but_cat: 2
+01-05-2025 04:27:22 Training model: Logistic Regression
+Requirement already satisfied: wandb in c:\users\x-hp\anaconda3\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (8.1.7)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.1.43)
+Requirement already satisfied: platformdirs in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (4.25.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (5.9.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.8.2)
+Requirement already satisfied: pyyaml in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (6.0.1)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (2.18.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\anaconda3\lib\site-packages (from wandb) (75.1.0)
+Requirement already satisfied: colorama in c:\users\x-hp\anaconda3\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.7)
+Requirement already satisfied: annotated-types>=0.4.0 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.6.0)
+Requirement already satisfied: pydantic-core==2.20.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.20.1)
+Requirement already satisfied: typing-extensions>=4.6.1 in c:\users\x-hp\anaconda3\lib\site-packages (from pydantic<3,>=2.6->wandb) (4.11.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\anaconda3\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<5,>=3.0.1 in c:\users\x-hp\anaconda3\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (4.0.0)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+01-05-2025 04:28:48 Downloading and reading train artifact
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+01-05-2025 04:28:50 Spliting data into train/val
+01-05-2025 04:28:50 x train: (375, 18)
+01-05-2025 04:28:50 y train: (375,)
+01-05-2025 04:28:50 x val: (162, 18)
+01-05-2025 04:28:50 y val: (162,)
+01-05-2025 04:28:50 Outlier Removal
+01-05-2025 04:28:51 x_train shape [original]: (375, 18)
+01-05-2025 04:28:51 x_train shape [outlier removal]: (357, 18)
+01-05-2025 04:29:07 Training model: Logistic Regression
+01-05-2025 04:29:34 Training model: Logistic Regression
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+01-05-2025 04:29:37 [Logistic Regression] Accuracy: 0.6975308641975309
+01-05-2025 04:29:37 Training model: Random Forest
+01-05-2025 04:29:37 [Random Forest] Accuracy: 0.7345679012345679
+01-05-2025 04:29:37 Training model: XGBoost
+c:\Users\x-hp\AppData\Local\Programs\Python\Python311\Lib\site-packages\xgboost\training.py:183: UserWarning: [04:29:38] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+01-05-2025 04:29:38 [XGBoost] Accuracy: 0.7037037037037037
+                 Model  Accuracy
+0  Logistic Regression  0.697531
+1        Random Forest  0.734568
+2              XGBoost  0.703704

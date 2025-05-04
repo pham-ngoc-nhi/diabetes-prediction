@@ -1,0 +1,25 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "CPython 3.11.4",
+  "startedAt":  "2025-05-01T19:31:04.657884Z",
+  "program":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\2_eda.ipynb",
+  "codePath":  "2_eda.ipynb",
+  "email":  "mlcolongmay@gmail.com",
+  "root":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project",
+  "host":  "DESKTOP-C021RC1",
+  "executable":  "c:\\Users\\x-hp\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+  "codePathLocal":  "2_eda.ipynb",
+  "cpu_count_logical":  4,
+  "disk":  {
+    "/":  {
+      "total":  "254805131264",
+      "used":  "215225147392"
+    }
+  },
+  "memory":  {
+    "total":  "8459083776"
+  },
+  "cpu":  {
+    "countLogical":  4
+  }
+}

@@ -1,0 +1,1 @@
+{"columns": ["Model", "Accuracy"], "data": [["Logistic Regression", 0.7469135802469136], ["Random Forest", 0.7222222222222222], ["XGBoost", 0.7222222222222222]]}

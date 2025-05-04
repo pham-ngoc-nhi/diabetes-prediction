@@ -1,0 +1,16 @@
+{"time":"2025-05-02T01:18:11.6984736+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250502_011811-n1fifcen\\logs\\debug-core.log"}
+{"time":"2025-05-02T01:18:12.0431793+07:00","level":"INFO","msg":"created new stream","id":"n1fifcen"}
+{"time":"2025-05-02T01:18:12.0523805+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"n1fifcen"}
+{"time":"2025-05-02T01:18:12.0533783+07:00","level":"INFO","msg":"handler: started","stream_id":"n1fifcen"}
+{"time":"2025-05-02T01:18:12.0555333+07:00","level":"INFO","msg":"sender: started","stream_id":"n1fifcen"}
+{"time":"2025-05-02T01:18:12.0573648+07:00","level":"INFO","msg":"stream: started","id":"n1fifcen"}
+{"time":"2025-05-02T01:18:12.5956867+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-02T01:18:14.3584974+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-02T01:18:14.359523+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-02T01:18:15.512356+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact raw_data.csv","runtime_seconds":0.8875615},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6053745,"progress":"24B/24B"},{"desc":"uploading config.yaml","runtime_seconds":0.3503964,"progress":"440B/440B"}],"total_operations":3}}
+{"time":"2025-05-02T01:18:18.2333039+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-02T01:18:18.912698+07:00","level":"INFO","msg":"stream: closing","id":"n1fifcen"}
+{"time":"2025-05-02T01:18:18.912698+07:00","level":"INFO","msg":"handler: closed","stream_id":"n1fifcen"}
+{"time":"2025-05-02T01:18:18.912698+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"n1fifcen"}
+{"time":"2025-05-02T01:18:18.9294608+07:00","level":"INFO","msg":"sender: closed","stream_id":"n1fifcen"}
+{"time":"2025-05-02T01:18:18.9294608+07:00","level":"INFO","msg":"stream: closed","id":"n1fifcen"}

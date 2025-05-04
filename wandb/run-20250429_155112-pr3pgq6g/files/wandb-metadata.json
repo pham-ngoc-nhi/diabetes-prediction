@@ -1,0 +1,27 @@
+{
+  "os": "Windows-10-10.0.22621-SP0",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-04-29T08:51:19.375227Z",
+  "program": "c:\\Users\\Admin\\Desktop\\MLOps\\Project\\2_eda.ipynb",
+  "codePath": "2_eda.ipynb",
+  "email": "ngocnhi.p4work@gmail.com",
+  "root": "c:\\Users\\Admin\\Desktop\\MLOps\\Project",
+  "host": "PC-",
+  "executable": "c:\\Users\\Admin\\anaconda3\\envs\\mlflow_demo\\python.exe",
+  "codePathLocal": "2_eda.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "161062318080",
+      "used": "142363693056"
+    }
+  },
+  "memory": {
+    "total": "16905965568"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

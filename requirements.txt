@@ -1,0 +1,13 @@
+pandas
+wandb
+ydata_profiling
+matplotlib
+seaborn
+numpy
+pytest
+xgboost
+optuna
+joblib
+imblearn
+scikit-learn 
+streamlit==1.45.0

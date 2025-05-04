@@ -1,0 +1,29 @@
+{
+  "os": "Windows-10-10.0.22621-SP0",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-04-29T14:21:27.744109Z",
+  "args": [
+    "test_data.py",
+    "-vvv"
+  ],
+  "program": "-m __main__",
+  "email": "ngocnhi.p4work@gmail.com",
+  "root": "c:\\Users\\Admin\\Desktop\\MLOps\\Project",
+  "host": "PC-",
+  "executable": "C:\\Users\\Admin\\anaconda3\\envs\\mlflow_demo\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "161062318080",
+      "used": "150430371840"
+    }
+  },
+  "memory": {
+    "total": "16905965568"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

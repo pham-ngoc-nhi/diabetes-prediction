@@ -1,0 +1,8 @@
+{"time":"2025-05-01T00:14:50.4780699+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250501_001450-frxsr9ll\\logs\\debug-core.log"}
+{"time":"2025-05-01T00:14:50.5936673+07:00","level":"INFO","msg":"created new stream","id":"frxsr9ll"}
+{"time":"2025-05-01T00:14:50.5936673+07:00","level":"INFO","msg":"stream: started","id":"frxsr9ll"}
+{"time":"2025-05-01T00:14:50.5941784+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"frxsr9ll"}
+{"time":"2025-05-01T00:14:50.5941784+07:00","level":"INFO","msg":"sender: started","stream_id":"frxsr9ll"}
+{"time":"2025-05-01T00:14:50.5941784+07:00","level":"INFO","msg":"handler: started","stream_id":"frxsr9ll"}
+{"time":"2025-05-01T00:14:50.9349404+07:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-01T00:14:50.9354739+07:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
