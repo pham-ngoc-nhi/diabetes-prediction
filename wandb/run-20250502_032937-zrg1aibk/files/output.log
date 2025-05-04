@@ -1,0 +1,41 @@
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Shape before cleaning:  (768, 9)
+Columns with minimum value 0: ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
+Columns to create NA_FLAG: ['BloodPressure', 'BMI']
+Columns to just fill median: ['Glucose', 'SkinThickness', 'Insulin']
+Observations: 768
+Variables: 19
+cat_cols: 9
+num_cols: 10
+cat_but_car: 0
+num_but_cat: 5
+Top 8 features selected: ['GLUCOSE', 'BMI', 'NEW_GLUCOSE*INSULIN', 'NEW_GLUCOSE*PREGNANCIES', 'NEW_AGE_GLUCOSE_NOM_highmature', 'NEW_AGE_GLUCOSE_NOM_normalmature', 'NEW_BMI_Obese', 'NEW_GLUCOSE_Prediabetes']
+                              Feature     F-score       p-value
+1                             GLUCOSE  245.667855  3.128719e-48
+26            NEW_GLUCOSE_Prediabetes  154.849282  1.657572e-32
+15     NEW_AGE_GLUCOSE_NOM_highmature  108.093420  8.966150e-24
+11            NEW_GLUCOSE*PREGNANCIES   90.238011  2.627457e-20
+19   NEW_AGE_GLUCOSE_NOM_normalmature   86.135655  1.687438e-19
+5                                 BMI   82.629271  8.336903e-19
+25                      NEW_BMI_Obese   73.890957  4.613907e-17
+10                NEW_GLUCOSE*INSULIN   68.396014  5.899224e-16
+7                                 AGE   46.140611  2.209975e-11
+23                    NEW_BMI_Healthy   42.850275  1.081890e-10
+0                         PREGNANCIES   39.670227  5.065127e-10
+3                       SKINTHICKNESS   37.078538  1.793958e-09
+4                             INSULIN   33.190796  1.210026e-08
+6            DIABETESPEDIGREEFUNCTION   23.871300  1.254607e-06
+9                   NEW_INSULIN_SCORE   22.051329  3.145430e-06
+2                       BLOODPRESSURE   21.631580  3.890835e-06
+24                 NEW_BMI_Overweight   16.484723  5.408611e-05
+16     NEW_AGE_GLUCOSE_NOM_highsenior   13.567974  2.462568e-04
+12        NEW_AGE_BMI_NOM_obesesenior    8.041326  4.692755e-03
+8                         NEW_AGE_CAT    8.041326  4.692755e-03
+17      NEW_AGE_GLUCOSE_NOM_lowmature    5.455145  1.976800e-02
+13  NEW_AGE_BMI_NOM_underweightmature    2.155662  1.424557e-01
+21            BLOODPRESSURE_NA_FLAG_1    1.888906  1.697273e-01
+22                      BMI_NA_FLAG_1    1.371139  2.419804e-01
+18      NEW_AGE_GLUCOSE_NOM_lowsenior    0.535676  4.644543e-01
+20   NEW_AGE_GLUCOSE_NOM_normalsenior    0.124071  7.247576e-01
+14   NEW_AGE_GLUCOSE_NOM_hiddensenior    0.000133  9.907862e-01
+27               NEW_GLUCOSE_Diabetes         NaN           NaN

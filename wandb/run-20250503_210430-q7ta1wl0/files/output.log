@@ -1,0 +1,89 @@
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+WARNING: visions 0.8.1 does not provide the extra 'type_image_path'
+Requirement already satisfied: ydata-profiling in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (4.16.1)
+Requirement already satisfied: scipy<1.16,>=1.4.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (1.15.2)
+
+[notice] A new release of pip is available: 23.1.2 -> 25.1.1
+Requirement already satisfied: pandas!=1.4.0,<3.0,>1.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (2.2.3)
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Requirement already satisfied: matplotlib<=3.10,>=3.5 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (3.10.0)
+Requirement already satisfied: pydantic>=2 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (2.10.6)
+Requirement already satisfied: PyYAML<6.1,>=5.0.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (6.0.2)
+Requirement already satisfied: jinja2<3.2,>=2.11.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (3.1.6)
+Requirement already satisfied: visions[type_image_path]<0.8.2,>=0.7.5 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (0.8.1)
+Requirement already satisfied: numpy<2.2,>=1.16.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (2.1.3)
+Requirement already satisfied: htmlmin==0.1.12 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (0.1.12)
+Requirement already satisfied: phik<0.13,>=0.11.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (0.12.4)
+Requirement already satisfied: requests<3,>=2.24.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (2.32.3)
+Requirement already satisfied: tqdm<5,>=4.48.2 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (4.67.1)
+Requirement already satisfied: seaborn<0.14,>=0.10.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (0.13.2)
+Requirement already satisfied: multimethod<2,>=1.4 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (1.12)
+Requirement already satisfied: statsmodels<1,>=0.13.2 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (0.14.4)
+Requirement already satisfied: typeguard<5,>=3 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (4.4.2)
+Requirement already satisfied: imagehash==4.3.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (4.3.1)
+Requirement already satisfied: wordcloud>=1.9.3 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (1.9.4)
+Requirement already satisfied: dacite>=1.8 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (1.9.2)
+Requirement already satisfied: numba<=0.61,>=0.56.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from ydata-profiling) (0.61.0)
+Requirement already satisfied: PyWavelets in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from imagehash==4.3.1->ydata-profiling) (1.8.0)
+Requirement already satisfied: pillow in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from imagehash==4.3.1->ydata-profiling) (11.2.1)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from jinja2<3.2,>=2.11.1->ydata-profiling) (3.0.2)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from matplotlib<=3.10,>=3.5->ydata-profiling) (1.3.2)
+Requirement already satisfied: cycler>=0.10 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from matplotlib<=3.10,>=3.5->ydata-profiling) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from matplotlib<=3.10,>=3.5->ydata-profiling) (4.57.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from matplotlib<=3.10,>=3.5->ydata-profiling) (1.4.8)
+Requirement already satisfied: packaging>=20.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from matplotlib<=3.10,>=3.5->ydata-profiling) (24.2)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from matplotlib<=3.10,>=3.5->ydata-profiling) (3.2.3)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from matplotlib<=3.10,>=3.5->ydata-profiling) (2.9.0.post0)
+Requirement already satisfied: llvmlite<0.45,>=0.44.0dev0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from numba<=0.61,>=0.56.0->ydata-profiling) (0.44.0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from pandas!=1.4.0,<3.0,>1.1->ydata-profiling) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from pandas!=1.4.0,<3.0,>1.1->ydata-profiling) (2025.2)
+Requirement already satisfied: joblib>=0.14.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from phik<0.13,>=0.11.1->ydata-profiling) (1.4.2)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from pydantic>=2->ydata-profiling) (0.7.0)
+Requirement already satisfied: pydantic-core==2.27.2 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from pydantic>=2->ydata-profiling) (2.27.2)
+Requirement already satisfied: typing-extensions>=4.12.2 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from pydantic>=2->ydata-profiling) (4.12.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from requests<3,>=2.24.0->ydata-profiling) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from requests<3,>=2.24.0->ydata-profiling) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from requests<3,>=2.24.0->ydata-profiling) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from requests<3,>=2.24.0->ydata-profiling) (2025.1.31)
+Requirement already satisfied: patsy>=0.5.6 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from statsmodels<1,>=0.13.2->ydata-profiling) (1.0.1)
+Requirement already satisfied: colorama in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from tqdm<5,>=4.48.2->ydata-profiling) (0.4.6)
+Requirement already satisfied: attrs>=19.3.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from visions[type_image_path]<0.8.2,>=0.7.5->ydata-profiling) (25.3.0)
+Requirement already satisfied: networkx>=2.4 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from visions[type_image_path]<0.8.2,>=0.7.5->ydata-profiling) (3.4.2)
+Requirement already satisfied: puremagic in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from visions[type_image_path]<0.8.2,>=0.7.5->ydata-profiling) (1.29)
+Requirement already satisfied: six>=1.5 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from python-dateutil>=2.7->matplotlib<=3.10,>=3.5->ydata-profiling) (1.17.0)
+Requirement already satisfied: wandb in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (0.19.8)
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (8.1.8)
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (3.1.44)
+Requirement already satisfied: platformdirs in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (4.3.7)
+
+[notice] A new release of pip is available: 23.1.2 -> 25.1.1
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (5.29.4)
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (7.0.0)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (2.10.6)
+Requirement already satisfied: pyyaml in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (6.0.2)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (2.24.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (65.5.0)
+Requirement already satisfied: typing-extensions<5,>=4.4 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from wandb) (4.12.2)
+Requirement already satisfied: colorama in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from docker-pycreds>=0.4.0->wandb) (1.17.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.12)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.7.0)
+Requirement already satisfied: pydantic-core==2.27.2 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.27.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from requests<3,>=2.0.0->wandb) (2025.1.31)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\x-hp\onedrive - national economics university\desktop\ml ops\.venv\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (5.0.2)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Loaded 768 rows and 9 columns.
+100%|██████████| 9/9 [00:00<00:00, 142.41it/s]0<00:00, 38.68it/s, Describe variable: Outcome]                 
+Summarize dataset: 100%|██████████| 82/82 [00:16<00:00,  5.11it/s, Completed]                                                 
+Generate report structure: 100%|██████████| 1/1 [00:04<00:00,  4.86s/it]
+Render HTML: 100%|██████████| 1/1 [00:05<00:00,  5.40s/it]
+Export report to file: 100%|██████████| 1/1 [00:00<00:00, 18.64it/s]
+Report saved to eda_report.html

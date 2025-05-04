@@ -1,0 +1,305 @@
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Logistic Regression F1 CV Score: 0.7738
+Random Forest F1 CV Score: 0.8290
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:47] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:47] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:47] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:48] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:48] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:48] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+XGBoost F1 CV Score: 0.8099
+[I 2025-05-03 22:56:48,511] A new study created in memory with name: no-name-8d18f980-e082-4c3e-9efb-221f8cc32287
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:48] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:48] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:48] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:48,929] Trial 0 finished with value: 0.8043427657462745 and parameters: {'max_depth': 7, 'n_estimators': 65, 'learning_rate': 0.061053211277401424, 'subsample': 0.8551043147349933, 'colsample_bytree': 0.7397067980219848}. Best is trial 0 with value: 0.8043427657462745.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:48] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:49] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:49] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:49,470] Trial 1 finished with value: 0.8075976579610961 and parameters: {'max_depth': 6, 'n_estimators': 118, 'learning_rate': 0.1027447700934251, 'subsample': 0.7617674003925554, 'colsample_bytree': 0.8245108791616785}. Best is trial 1 with value: 0.8075976579610961.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:49] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:49] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:49] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:49,847] Trial 2 finished with value: 0.7895636527215476 and parameters: {'max_depth': 4, 'n_estimators': 99, 'learning_rate': 0.2625307175884748, 'subsample': 0.5484089950751736, 'colsample_bytree': 0.7429795753366768}. Best is trial 1 with value: 0.8075976579610961.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:49] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:50] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:50] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:50,644] Trial 3 finished with value: 0.8018885271598241 and parameters: {'max_depth': 6, 'n_estimators': 166, 'learning_rate': 0.1238809044001665, 'subsample': 0.831138800313419, 'colsample_bytree': 0.8057940116767035}. Best is trial 1 with value: 0.8075976579610961.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:50] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:50] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:51] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:51,478] Trial 4 finished with value: 0.7862418115394306 and parameters: {'max_depth': 5, 'n_estimators': 149, 'learning_rate': 0.1875038019422031, 'subsample': 0.9124955171836273, 'colsample_bytree': 0.5960330253009377}. Best is trial 1 with value: 0.8075976579610961.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:51] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:51] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:51] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:52,187] Trial 5 finished with value: 0.8049903611431192 and parameters: {'max_depth': 6, 'n_estimators': 152, 'learning_rate': 0.08577501833733354, 'subsample': 0.6848066244484199, 'colsample_bytree': 0.5771983907908044}. Best is trial 1 with value: 0.8075976579610961.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:52] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:53] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:53] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:54,177] Trial 6 finished with value: 0.7983719329148288 and parameters: {'max_depth': 7, 'n_estimators': 197, 'learning_rate': 0.2080948852451431, 'subsample': 0.5024446761889205, 'colsample_bytree': 0.7942587695469785}. Best is trial 1 with value: 0.8075976579610961.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:54] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:54] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:54] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:54,729] Trial 7 finished with value: 0.7820836938495926 and parameters: {'max_depth': 4, 'n_estimators': 137, 'learning_rate': 0.2825969470660593, 'subsample': 0.8373519668425529, 'colsample_bytree': 0.533753394078446}. Best is trial 1 with value: 0.8075976579610961.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:54] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:54] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:55] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:55,128] Trial 8 finished with value: 0.7957848803802355 and parameters: {'max_depth': 3, 'n_estimators': 86, 'learning_rate': 0.16432106063611482, 'subsample': 0.6768013179488477, 'colsample_bytree': 0.521136785445729}. Best is trial 1 with value: 0.8075976579610961.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:55] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:55] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:56] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:56,292] Trial 9 finished with value: 0.8057675075820238 and parameters: {'max_depth': 6, 'n_estimators': 176, 'learning_rate': 0.035854074449262675, 'subsample': 0.7279971944215231, 'colsample_bytree': 0.6582601887686206}. Best is trial 1 with value: 0.8075976579610961.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:56] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:56] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:57] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:57,311] Trial 10 finished with value: 0.8036898529045127 and parameters: {'max_depth': 8, 'n_estimators': 112, 'learning_rate': 0.011549954165130966, 'subsample': 0.9791757719039105, 'colsample_bytree': 0.9795012401034353}. Best is trial 1 with value: 0.8075976579610961.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:57] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:57] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:58] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:58,350] Trial 11 finished with value: 0.8128406256824007 and parameters: {'max_depth': 5, 'n_estimators': 185, 'learning_rate': 0.012003468106022899, 'subsample': 0.7344236662708289, 'colsample_bytree': 0.9088418260410918}. Best is trial 11 with value: 0.8128406256824007.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:58] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:58] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:59] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:56:59,251] Trial 12 finished with value: 0.8118760575296108 and parameters: {'max_depth': 5, 'n_estimators': 121, 'learning_rate': 0.10855848520493432, 'subsample': 0.6209854880575932, 'colsample_bytree': 0.9403502876695138}. Best is trial 11 with value: 0.8128406256824007.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:59] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:56:59] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:00] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:57:03,319] Trial 13 finished with value: 0.8111496059746054 and parameters: {'max_depth': 4, 'n_estimators': 198, 'learning_rate': 0.13474800929433772, 'subsample': 0.6066307263119117, 'colsample_bytree': 0.9686861895464685}. Best is trial 11 with value: 0.8128406256824007.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:03] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:03] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:03] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:57:03,711] Trial 14 finished with value: 0.8186657355850806 and parameters: {'max_depth': 5, 'n_estimators': 55, 'learning_rate': 0.0589838973937684, 'subsample': 0.6171611679144253, 'colsample_bytree': 0.9057140662108338}. Best is trial 14 with value: 0.8186657355850806.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:03] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:03] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:03] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:57:04,003] Trial 15 finished with value: 0.79758886499218 and parameters: {'max_depth': 3, 'n_estimators': 60, 'learning_rate': 0.013029619784516824, 'subsample': 0.7666294308983789, 'colsample_bytree': 0.8691718250458947}. Best is trial 14 with value: 0.8186657355850806.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:04] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:04] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:04] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:57:04,405] Trial 16 finished with value: 0.8211373879576644 and parameters: {'max_depth': 5, 'n_estimators': 81, 'learning_rate': 0.05900643033202987, 'subsample': 0.6161188509150971, 'colsample_bytree': 0.8998555467029093}. Best is trial 16 with value: 0.8211373879576644.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:04] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:04] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:04] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:57:04,803] Trial 17 finished with value: 0.8131300649630001 and parameters: {'max_depth': 4, 'n_estimators': 78, 'learning_rate': 0.06568932840725113, 'subsample': 0.5993387908687455, 'colsample_bytree': 0.9110938801242177}. Best is trial 16 with value: 0.8211373879576644.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:04] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:04] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:05] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:57:05,166] Trial 18 finished with value: 0.813408599308167 and parameters: {'max_depth': 7, 'n_estimators': 52, 'learning_rate': 0.06869210954141476, 'subsample': 0.5528446162455851, 'colsample_bytree': 0.8650329260126302}. Best is trial 16 with value: 0.8211373879576644.
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:05] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:05] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\.venv\Lib\site-packages\xgboost\training.py:183: UserWarning: [22:57:05] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+[I 2025-05-03 22:57:05,560] Trial 19 finished with value: 0.8287667456860909 and parameters: {'max_depth': 5, 'n_estimators': 77, 'learning_rate': 0.04506859845586465, 'subsample': 0.6620479674077185, 'colsample_bytree': 0.6826390789507337}. Best is trial 19 with value: 0.8287667456860909.
+Best params: {'max_depth': 5, 'n_estimators': 77, 'learning_rate': 0.04506859845586465, 'subsample': 0.6620479674077185, 'colsample_bytree': 0.6826390789507337}
+
+Validation Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.69      0.77        70
+           1       0.58      0.82      0.68        38
+
+    accuracy                           0.73       108
+   macro avg       0.73      0.75      0.72       108
+weighted avg       0.77      0.73      0.74       108
+
+Confusion Matrix:
+ [[48 22]
+ [ 7 31]]
+Model saved and logged as final_model_xgboost.pkl

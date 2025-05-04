@@ -1,0 +1,23 @@
+{"time":"2025-05-01T16:43:55.2956456+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250501_164355-un7qd2qb\\logs\\debug-core.log"}
+{"time":"2025-05-01T16:43:55.43017+07:00","level":"INFO","msg":"created new stream","id":"un7qd2qb"}
+{"time":"2025-05-01T16:43:55.43017+07:00","level":"INFO","msg":"stream: started","id":"un7qd2qb"}
+{"time":"2025-05-01T16:43:55.43017+07:00","level":"INFO","msg":"handler: started","stream_id":"un7qd2qb"}
+{"time":"2025-05-01T16:43:55.43969+07:00","level":"INFO","msg":"sender: started","stream_id":"un7qd2qb"}
+{"time":"2025-05-01T16:43:55.43969+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"un7qd2qb"}
+{"time":"2025-05-01T16:43:55.9545509+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-01T16:43:56.584442+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T16:43:56.6246044+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T16:43:56.6246044+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T16:43:56.6543449+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T16:43:58.5875775+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-01T16:44:02.7644492+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T16:44:02.859343+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T16:44:03.1832406+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-01T16:44:03.1839105+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-01T16:44:04.1922444+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7022559,"progress":"349B/349B"},{"desc":"uploading config.yaml","runtime_seconds":0.4270533,"progress":"543B/543B"}],"total_operations":2}}
+{"time":"2025-05-01T16:44:04.5058322+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-01T16:44:04.9117562+07:00","level":"INFO","msg":"stream: closing","id":"un7qd2qb"}
+{"time":"2025-05-01T16:44:04.9117562+07:00","level":"INFO","msg":"handler: closed","stream_id":"un7qd2qb"}
+{"time":"2025-05-01T16:44:04.9117562+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"un7qd2qb"}
+{"time":"2025-05-01T16:44:04.9177208+07:00","level":"INFO","msg":"sender: closed","stream_id":"un7qd2qb"}
+{"time":"2025-05-01T16:44:04.9213618+07:00","level":"INFO","msg":"stream: closed","id":"un7qd2qb"}

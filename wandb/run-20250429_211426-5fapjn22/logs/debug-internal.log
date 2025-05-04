@@ -1,0 +1,16 @@
+{"time":"2025-04-29T21:14:26.6924149+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"C:\\Users\\Admin\\Desktop\\MLOps\\Project\\wandb\\run-20250429_211426-5fapjn22\\logs\\debug-core.log"}
+{"time":"2025-04-29T21:14:27.4808803+07:00","level":"INFO","msg":"created new stream","id":"5fapjn22"}
+{"time":"2025-04-29T21:14:27.4808803+07:00","level":"INFO","msg":"handler: started","stream_id":"5fapjn22"}
+{"time":"2025-04-29T21:14:27.481397+07:00","level":"INFO","msg":"stream: started","id":"5fapjn22"}
+{"time":"2025-04-29T21:14:27.4814746+07:00","level":"INFO","msg":"sender: started","stream_id":"5fapjn22"}
+{"time":"2025-04-29T21:14:27.481397+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"5fapjn22"}
+{"time":"2025-04-29T21:14:27.8680066+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T21:14:31.0303922+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-04-29T21:14:32.4013117+07:00","level":"INFO","msg":"stream: closing","id":"5fapjn22"}
+{"time":"2025-04-29T21:14:32.4013117+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-29T21:14:32.4013117+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-29T21:14:33.4036731+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-29T21:14:33.9382366+07:00","level":"INFO","msg":"handler: closed","stream_id":"5fapjn22"}
+{"time":"2025-04-29T21:14:33.9382366+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"5fapjn22"}
+{"time":"2025-04-29T21:14:33.9382366+07:00","level":"INFO","msg":"sender: closed","stream_id":"5fapjn22"}
+{"time":"2025-04-29T21:14:33.9388902+07:00","level":"INFO","msg":"stream: closed","id":"5fapjn22"}

@@ -1,0 +1,8 @@
+{"time":"2025-04-29T15:51:19.3763155+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\Admin\\Desktop\\MLOps\\Project\\wandb\\run-20250429_155112-pr3pgq6g\\logs\\debug-core.log"}
+{"time":"2025-04-29T15:51:19.8298835+07:00","level":"INFO","msg":"created new stream","id":"pr3pgq6g"}
+{"time":"2025-04-29T15:51:19.8300356+07:00","level":"INFO","msg":"stream: started","id":"pr3pgq6g"}
+{"time":"2025-04-29T15:51:19.8300356+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"pr3pgq6g"}
+{"time":"2025-04-29T15:51:19.8300356+07:00","level":"INFO","msg":"sender: started","stream_id":"pr3pgq6g"}
+{"time":"2025-04-29T15:51:19.8300356+07:00","level":"INFO","msg":"handler: started","stream_id":"pr3pgq6g"}
+{"time":"2025-04-29T15:51:20.5374201+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T15:51:22.8000121+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}

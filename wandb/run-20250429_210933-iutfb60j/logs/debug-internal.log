@@ -1,0 +1,31 @@
+{"time":"2025-04-29T21:09:35.6800051+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\Admin\\Desktop\\MLOps\\Project\\wandb\\run-20250429_210933-iutfb60j\\logs\\debug-core.log"}
+{"time":"2025-04-29T21:09:36.2454022+07:00","level":"INFO","msg":"created new stream","id":"iutfb60j"}
+{"time":"2025-04-29T21:09:36.2459122+07:00","level":"INFO","msg":"stream: started","id":"iutfb60j"}
+{"time":"2025-04-29T21:09:36.2461211+07:00","level":"INFO","msg":"sender: started","stream_id":"iutfb60j"}
+{"time":"2025-04-29T21:09:36.2459122+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"iutfb60j"}
+{"time":"2025-04-29T21:09:36.2459122+07:00","level":"INFO","msg":"handler: started","stream_id":"iutfb60j"}
+{"time":"2025-04-29T21:09:36.8442082+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T21:09:53.5838864+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T21:09:54.3979593+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-29T21:11:50.4510964+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T21:11:50.4598473+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-29T21:13:49.6724816+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T21:13:49.6800952+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-29T21:14:06.386706+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T21:14:06.3900565+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-29T21:20:53.8439284+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T21:20:53.8542548+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-29T21:21:13.6751914+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T21:21:13.6792873+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-29T21:21:22.873482+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T21:21:32.8023779+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-29T21:24:42.5557899+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-29T21:24:42.5884709+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-29T21:24:42.5884709+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-29T21:24:43.6093367+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4646772,"progress":"17.7KB/17.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4646772,"progress":"26B/26B"},{"desc":"uploading config.yaml","runtime_seconds":0.1369109,"progress":"445B/445B"}],"total_operations":3}}
+{"time":"2025-04-29T21:24:44.558708+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-29T21:24:44.9457849+07:00","level":"INFO","msg":"stream: closing","id":"iutfb60j"}
+{"time":"2025-04-29T21:24:44.9457849+07:00","level":"INFO","msg":"handler: closed","stream_id":"iutfb60j"}
+{"time":"2025-04-29T21:24:44.9457849+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"iutfb60j"}
+{"time":"2025-04-29T21:24:44.9465933+07:00","level":"INFO","msg":"sender: closed","stream_id":"iutfb60j"}
+{"time":"2025-04-29T21:24:44.9465933+07:00","level":"INFO","msg":"stream: closed","id":"iutfb60j"}

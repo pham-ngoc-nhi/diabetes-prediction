@@ -1,0 +1,23 @@
+{"time":"2025-05-01T01:48:13.8760881+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250501_014813-g80vfvmz\\logs\\debug-core.log"}
+{"time":"2025-05-01T01:48:14.0130154+07:00","level":"INFO","msg":"created new stream","id":"g80vfvmz"}
+{"time":"2025-05-01T01:48:14.0130154+07:00","level":"INFO","msg":"stream: started","id":"g80vfvmz"}
+{"time":"2025-05-01T01:48:14.0169427+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"g80vfvmz"}
+{"time":"2025-05-01T01:48:14.0181583+07:00","level":"INFO","msg":"sender: started","stream_id":"g80vfvmz"}
+{"time":"2025-05-01T01:48:14.0191257+07:00","level":"INFO","msg":"handler: started","stream_id":"g80vfvmz"}
+{"time":"2025-05-01T01:48:14.5210206+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-01T01:48:15.1038328+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T01:48:15.128131+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T01:48:15.1281393+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T01:48:15.2251997+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T01:48:17.0770679+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-01T01:48:21.0117128+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T01:48:21.0423448+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T01:48:21.3485545+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-01T01:48:21.3504596+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-01T01:48:22.3503259+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-01T01:48:22.3680874+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 0-6","runtime_seconds":0.0177615}],"total_operations":1}}
+{"time":"2025-05-01T01:48:22.7260525+07:00","level":"INFO","msg":"stream: closing","id":"g80vfvmz"}
+{"time":"2025-05-01T01:48:22.7260525+07:00","level":"INFO","msg":"handler: closed","stream_id":"g80vfvmz"}
+{"time":"2025-05-01T01:48:22.7265721+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g80vfvmz"}
+{"time":"2025-05-01T01:48:22.7265721+07:00","level":"INFO","msg":"sender: closed","stream_id":"g80vfvmz"}
+{"time":"2025-05-01T01:48:22.7265721+07:00","level":"INFO","msg":"stream: closed","id":"g80vfvmz"}

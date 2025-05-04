@@ -1,0 +1,16 @@
+{"time":"2025-04-30T23:48:35.7817618+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250430_234835-0gbfi4r7\\logs\\debug-core.log"}
+{"time":"2025-04-30T23:48:36.3560063+07:00","level":"INFO","msg":"created new stream","id":"0gbfi4r7"}
+{"time":"2025-04-30T23:48:36.3565656+07:00","level":"INFO","msg":"stream: started","id":"0gbfi4r7"}
+{"time":"2025-04-30T23:48:36.3565656+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"0gbfi4r7"}
+{"time":"2025-04-30T23:48:36.3565656+07:00","level":"INFO","msg":"sender: started","stream_id":"0gbfi4r7"}
+{"time":"2025-04-30T23:48:36.3560063+07:00","level":"INFO","msg":"handler: started","stream_id":"0gbfi4r7"}
+{"time":"2025-04-30T23:48:36.9635483+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-30T23:48:39.8293817+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-30T23:48:39.8293817+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-30T23:48:40.8338809+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.487149},{"desc":"uploading config.yaml","runtime_seconds":0.1835597,"progress":"471B/471B"}],"total_operations":2}}
+{"time":"2025-04-30T23:48:41.3228082+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-30T23:48:41.656009+07:00","level":"INFO","msg":"stream: closing","id":"0gbfi4r7"}
+{"time":"2025-04-30T23:48:41.656009+07:00","level":"INFO","msg":"handler: closed","stream_id":"0gbfi4r7"}
+{"time":"2025-04-30T23:48:41.656009+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0gbfi4r7"}
+{"time":"2025-04-30T23:48:41.6575918+07:00","level":"INFO","msg":"sender: closed","stream_id":"0gbfi4r7"}
+{"time":"2025-04-30T23:48:41.6575918+07:00","level":"INFO","msg":"stream: closed","id":"0gbfi4r7"}

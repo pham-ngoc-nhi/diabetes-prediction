@@ -1,0 +1,141 @@
+2025-05-02 01:18:49,246 INFO    MainThread:7084 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\wandb\run-20250502_011849-p9dm88r2\logs\debug.log
+2025-05-02 01:18:49,247 INFO    MainThread:7084 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\wandb\run-20250502_011849-p9dm88r2\logs\debug-internal.log
+2025-05-02 01:18:49,249 INFO    MainThread:7084 [wandb_init.py:init():761] calling init triggers
+2025-05-02 01:18:49,250 INFO    MainThread:7084 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-02 01:18:49,250 INFO    MainThread:7084 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-05-02 01:18:49,254 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:18:50,076 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:18:50,076 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:18:50,228 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:18:53,110 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:18:53,593 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:18:53,593 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:18:53,674 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:18:53,697 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:18:54,146 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:18:54,147 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:18:54,185 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:18:54,199 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:18:54,767 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:18:54,768 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:18:54,802 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:18:54,883 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:18:55,337 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:18:55,338 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:18:55,412 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:19:03,552 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:19:04,327 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:19:04,328 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:19:04,453 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:19:27,505 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:19:27,922 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:19:27,922 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:19:27,994 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:02,473 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:02,867 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:02,867 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:06,305 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:09,833 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:10,294 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:10,296 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:10,448 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:10,452 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:10,947 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:10,947 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:10,984 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:10,991 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:11,708 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:11,740 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:11,795 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:11,811 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:12,435 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:12,435 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:12,468 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:12,474 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:13,189 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:13,190 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:13,224 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:13,227 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:13,860 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:13,860 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:13,907 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:13,922 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:14,463 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:14,464 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:14,506 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:14,506 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:15,021 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:15,021 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:15,418 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:15,423 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:15,925 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:15,926 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:15,958 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:15,971 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:16,442 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:16,446 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:16,479 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:16,506 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:16,905 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:16,905 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:16,943 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:17,490 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:18,013 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:18,013 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:18,047 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:20:53,156 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:20:53,556 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:20:53,556 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:20:58,254 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:00,130 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:00,609 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:00,609 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:01,058 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:01,545 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:02,290 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:02,290 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:02,326 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:02,974 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:03,408 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:03,408 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:03,449 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:03,908 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:04,351 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:04,351 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:04,407 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:04,909 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:05,568 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:05,569 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:05,602 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:06,461 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:06,880 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:06,880 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:06,920 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:11,903 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:12,873 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:12,874 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:13,277 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:23,816 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:24,385 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:24,385 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:24,417 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:24,588 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:24,980 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:24,981 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:25,016 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:25,017 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:25,471 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:25,471 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:25,505 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:25,505 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:25,903 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:25,904 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:25,954 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:25,954 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:26,338 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:26,338 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend
+2025-05-02 01:21:26,378 INFO    MainThread:7084 [wandb_init.py:_resume_backend():569] resuming backend
+2025-05-02 01:21:26,572 INFO    MainThread:7084 [jupyter.py:_save_ipynb():397] looking for notebook: c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\Project\2_eda.ipynb
+2025-05-02 01:21:27,198 INFO    MainThread:7084 [wandb_init.py:_pause_backend():562] saved code: <Artifact source-diabetes-c__Users_x-hp_OneDrive_-_National_Economics_University_Desktop_ML_Ops_FINAL_Project_2_eda.ipynb>
+2025-05-02 01:21:27,200 INFO    MainThread:7084 [wandb_init.py:_pause_backend():564] pausing backend

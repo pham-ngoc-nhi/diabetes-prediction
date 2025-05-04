@@ -1,0 +1,9 @@
+{"time":"2025-05-03T23:16:41.6291981+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\diabetes_project_MLOPS\\diabetes_project_MLOPS\\wandb\\run-20250503_231641-bnj5ogq6\\logs\\debug-core.log"}
+{"time":"2025-05-03T23:16:41.7527538+07:00","level":"INFO","msg":"created new stream","id":"bnj5ogq6"}
+{"time":"2025-05-03T23:16:41.7527538+07:00","level":"INFO","msg":"stream: started","id":"bnj5ogq6"}
+{"time":"2025-05-03T23:16:41.7537543+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"bnj5ogq6"}
+{"time":"2025-05-03T23:16:41.7537543+07:00","level":"INFO","msg":"sender: started","stream_id":"bnj5ogq6"}
+{"time":"2025-05-03T23:16:41.7537543+07:00","level":"INFO","msg":"handler: started","stream_id":"bnj5ogq6"}
+{"time":"2025-05-03T23:16:42.1517436+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-03T23:16:44.8354572+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-03T23:28:43.5463612+07:00","level":"INFO","msg":"Pausing system monitor"}

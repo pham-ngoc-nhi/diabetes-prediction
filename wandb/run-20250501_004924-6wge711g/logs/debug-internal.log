@@ -1,0 +1,16 @@
+{"time":"2025-05-01T00:49:24.9266799+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250501_004924-6wge711g\\logs\\debug-core.log"}
+{"time":"2025-05-01T00:49:26.6438838+07:00","level":"INFO","msg":"created new stream","id":"6wge711g"}
+{"time":"2025-05-01T00:49:26.6438838+07:00","level":"INFO","msg":"stream: started","id":"6wge711g"}
+{"time":"2025-05-01T00:49:26.6438838+07:00","level":"INFO","msg":"handler: started","stream_id":"6wge711g"}
+{"time":"2025-05-01T00:49:26.6620415+07:00","level":"INFO","msg":"sender: started","stream_id":"6wge711g"}
+{"time":"2025-05-01T00:49:26.6741785+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"6wge711g"}
+{"time":"2025-05-01T00:49:27.320831+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-01T00:49:30.4049401+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-01T00:49:30.4049401+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-01T00:49:31.4619051+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.0886899,"progress":"522B/522B"}],"total_operations":1}}
+{"time":"2025-05-01T00:49:31.8594611+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-01T00:49:32.648707+07:00","level":"INFO","msg":"stream: closing","id":"6wge711g"}
+{"time":"2025-05-01T00:49:32.648707+07:00","level":"INFO","msg":"handler: closed","stream_id":"6wge711g"}
+{"time":"2025-05-01T00:49:32.648707+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6wge711g"}
+{"time":"2025-05-01T00:49:32.6591706+07:00","level":"INFO","msg":"sender: closed","stream_id":"6wge711g"}
+{"time":"2025-05-01T00:49:32.7425786+07:00","level":"INFO","msg":"stream: closed","id":"6wge711g"}

@@ -1,0 +1,36 @@
+{
+  "os": "Windows-10-10.0.22621-SP0",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-04-28T07:53:42.213452Z",
+  "args": [
+    "artifact",
+    "put",
+    "--name",
+    "diabetes/raw_data.csv",
+    "--type",
+    "raw_data",
+    "--description",
+    "The raw diabetes data from  from the National Institute of Diabetes and Digestive and Kidney Diseases.",
+    "raw_data.csv"
+  ],
+  "program": "-m __main__",
+  "email": "ngocnhi.p4work@gmail.com",
+  "root": "c:\\Users\\Admin\\Desktop\\MLOps\\Project",
+  "host": "PC-",
+  "executable": "C:\\Users\\Admin\\anaconda3\\envs\\mlflow_demo\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "161062318080",
+      "used": "142108635136"
+    }
+  },
+  "memory": {
+    "total": "16905965568"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

@@ -1,0 +1,17 @@
+{"time":"2025-05-04T09:35:24.3655889+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Admin\\Desktop\\MLOps\\hi\\final\\wandb\\run-20250504_093443-3axb3dol\\logs\\debug-core.log"}
+{"time":"2025-05-04T09:35:24.5322967+07:00","level":"INFO","msg":"created new stream","id":"3axb3dol"}
+{"time":"2025-05-04T09:35:24.5328012+07:00","level":"INFO","msg":"stream: started","id":"3axb3dol"}
+{"time":"2025-05-04T09:35:24.5328012+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"3axb3dol"}
+{"time":"2025-05-04T09:35:24.5328012+07:00","level":"INFO","msg":"sender: started","stream_id":"3axb3dol"}
+{"time":"2025-05-04T09:35:24.5328012+07:00","level":"INFO","msg":"handler: started","stream_id":"3axb3dol"}
+{"time":"2025-05-04T09:35:29.6677309+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-04T09:36:23.0595732+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-04T09:36:32.1599211+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-04T09:36:32.1604279+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-04T09:36:33.1779173+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":1.0248327}],"total_operations":1}}
+{"time":"2025-05-04T09:36:35.9139467+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-04T09:36:43.593102+07:00","level":"INFO","msg":"stream: closing","id":"3axb3dol"}
+{"time":"2025-05-04T09:36:43.593102+07:00","level":"INFO","msg":"handler: closed","stream_id":"3axb3dol"}
+{"time":"2025-05-04T09:36:43.593102+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3axb3dol"}
+{"time":"2025-05-04T09:36:43.593102+07:00","level":"INFO","msg":"sender: closed","stream_id":"3axb3dol"}
+{"time":"2025-05-04T09:36:43.593102+07:00","level":"INFO","msg":"stream: closed","id":"3axb3dol"}

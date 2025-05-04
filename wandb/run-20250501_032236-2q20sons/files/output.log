@@ -1,0 +1,5 @@
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Shape before cleaning:  (768, 9)
+Columns with minimum value 0: ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
+Columns to create NA_FLAG: ['BloodPressure', 'BMI']
+Columns to just fill median: ['Glucose', 'SkinThickness', 'Insulin']

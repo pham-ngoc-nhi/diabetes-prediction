@@ -1,0 +1,34 @@
+{"time":"2025-05-01T15:41:04.5855243+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250501_154104-pt54bahr\\logs\\debug-core.log"}
+{"time":"2025-05-01T15:41:05.5821918+07:00","level":"INFO","msg":"created new stream","id":"pt54bahr"}
+{"time":"2025-05-01T15:41:05.5821918+07:00","level":"INFO","msg":"stream: started","id":"pt54bahr"}
+{"time":"2025-05-01T15:41:05.58422+07:00","level":"INFO","msg":"handler: started","stream_id":"pt54bahr"}
+{"time":"2025-05-01T15:41:05.58422+07:00","level":"INFO","msg":"sender: started","stream_id":"pt54bahr"}
+{"time":"2025-05-01T15:41:05.5897067+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"pt54bahr"}
+{"time":"2025-05-01T15:41:06.303052+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-01T15:41:06.6874276+07:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-05-01T15:41:08.95014+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:41:08.9620955+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:41:10.6950926+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-01T15:41:12.3576573+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:41:12.38049+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:41:12.9002877+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:41:12.9223015+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:41:13.5062681+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:41:13.5871934+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:41:14.0509257+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:41:14.0977931+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:41:25.219256+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:41:25.2582672+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:41:33.5295116+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:41:33.5816233+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:41:35.5065642+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:43:34.0520316+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:43:56.9627034+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:45:03.3051048+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:45:03.834847+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:45:03.9583763+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:45:04.3719566+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:45:26.9024696+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:45:49.5623623+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-01T15:47:25.884625+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-01T15:47:26.7674468+07:00","level":"INFO","msg":"Pausing system monitor"}

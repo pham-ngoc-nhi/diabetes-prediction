@@ -1,0 +1,23 @@
+{"time":"2025-05-02T03:51:46.0912647+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250502_035145-j3ssnion\\logs\\debug-core.log"}
+{"time":"2025-05-02T03:51:46.5540704+07:00","level":"INFO","msg":"created new stream","id":"j3ssnion"}
+{"time":"2025-05-02T03:51:46.5540704+07:00","level":"INFO","msg":"stream: started","id":"j3ssnion"}
+{"time":"2025-05-02T03:51:46.5540704+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"j3ssnion"}
+{"time":"2025-05-02T03:51:46.5545813+07:00","level":"INFO","msg":"sender: started","stream_id":"j3ssnion"}
+{"time":"2025-05-02T03:51:46.5545813+07:00","level":"INFO","msg":"handler: started","stream_id":"j3ssnion"}
+{"time":"2025-05-02T03:51:46.9991381+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-02T03:51:47.8795795+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-02T03:51:47.9162543+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-02T03:51:47.9162543+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-02T03:51:47.9571139+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-02T03:51:49.6020035+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-02T03:51:58.8997019+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-02T03:51:58.9548122+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-02T03:51:58.9574076+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-02T03:51:58.9773583+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-02T03:51:59.976861+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6841485,"progress":"25B/25B"},{"desc":"uploading config.yaml","runtime_seconds":0.4203373,"progress":"543B/543B"}],"total_operations":2}}
+{"time":"2025-05-02T03:52:00.8923152+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-02T03:52:01.2733318+07:00","level":"INFO","msg":"stream: closing","id":"j3ssnion"}
+{"time":"2025-05-02T03:52:01.2733318+07:00","level":"INFO","msg":"handler: closed","stream_id":"j3ssnion"}
+{"time":"2025-05-02T03:52:01.2733318+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"j3ssnion"}
+{"time":"2025-05-02T03:52:01.2733318+07:00","level":"INFO","msg":"sender: closed","stream_id":"j3ssnion"}
+{"time":"2025-05-02T03:52:01.2733318+07:00","level":"INFO","msg":"stream: closed","id":"j3ssnion"}

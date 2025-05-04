@@ -1,0 +1,23 @@
+{"time":"2025-05-02T02:53:57.0304174+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project\\wandb\\run-20250502_025356-erdg40yf\\logs\\debug-core.log"}
+{"time":"2025-05-02T02:53:57.1874255+07:00","level":"INFO","msg":"created new stream","id":"erdg40yf"}
+{"time":"2025-05-02T02:53:57.1874255+07:00","level":"INFO","msg":"stream: started","id":"erdg40yf"}
+{"time":"2025-05-02T02:53:57.1891231+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"erdg40yf"}
+{"time":"2025-05-02T02:53:57.1896286+07:00","level":"INFO","msg":"handler: started","stream_id":"erdg40yf"}
+{"time":"2025-05-02T02:53:57.1896286+07:00","level":"INFO","msg":"sender: started","stream_id":"erdg40yf"}
+{"time":"2025-05-02T02:53:57.6922827+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-02T02:53:58.4875893+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-02T02:53:58.5226509+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-02T02:53:58.5226509+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-02T02:53:58.6863879+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-02T02:54:00.6718847+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-02T02:54:08.6121281+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-02T02:54:08.684028+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-02T02:54:08.9313679+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-02T02:54:08.9327558+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-02T02:54:09.9521475+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7326724,"progress":"349B/349B"},{"desc":"uploading config.yaml","runtime_seconds":0.1740797,"progress":"543B/543B"}],"total_operations":2}}
+{"time":"2025-05-02T02:54:10.1868103+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-02T02:54:10.5574469+07:00","level":"INFO","msg":"stream: closing","id":"erdg40yf"}
+{"time":"2025-05-02T02:54:10.5574469+07:00","level":"INFO","msg":"handler: closed","stream_id":"erdg40yf"}
+{"time":"2025-05-02T02:54:10.5574469+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"erdg40yf"}
+{"time":"2025-05-02T02:54:10.5703521+07:00","level":"INFO","msg":"sender: closed","stream_id":"erdg40yf"}
+{"time":"2025-05-02T02:54:10.5703521+07:00","level":"INFO","msg":"stream: closed","id":"erdg40yf"}

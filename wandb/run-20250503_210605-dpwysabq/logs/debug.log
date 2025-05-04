@@ -1,0 +1,45 @@
+2025-05-03 21:06:05,078 INFO    MainThread:18016 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\diabetes_project_MLOPS\diabetes_project_MLOPS\wandb\run-20250503_210605-dpwysabq\logs\debug.log
+2025-05-03 21:06:05,079 INFO    MainThread:18016 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\diabetes_project_MLOPS\diabetes_project_MLOPS\wandb\run-20250503_210605-dpwysabq\logs\debug-internal.log
+2025-05-03 21:06:05,079 INFO    MainThread:18016 [wandb_init.py:init():761] calling init triggers
+2025-05-03 21:06:05,079 INFO    MainThread:18016 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-03 21:06:05,082 INFO    MainThread:18016 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-05-03 21:06:37,502 INFO    MainThread:18016 [wandb_run.py:_finish():2112] finishing run mlcolongmay-neu/diabetes/q7ta1wl0
+2025-05-03 21:06:37,505 ERROR   MainThread:18016 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-05-03 21:06:37,505 INFO    MainThread:18016 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-03 21:06:37,506 INFO    MainThread:18016 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-05-03 21:06:37,506 INFO    MainThread:18016 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-05-03 21:06:37,507 INFO    MainThread:18016 [wandb_run.py:_restore():2322] restore
+2025-05-03 21:06:37,508 INFO    MainThread:18016 [wandb_run.py:_restore():2328] restore done
+2025-05-03 21:06:44,181 INFO    MainThread:18016 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-05-03 21:06:44,182 INFO    MainThread:18016 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-05-03 21:06:44,182 INFO    MainThread:18016 [wandb_run.py:_footer_sync_info():3917] logging synced files
+2025-05-03 21:12:16,028 INFO    MainThread:18016 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\diabetes_project_MLOPS\diabetes_project_MLOPS\wandb\run-20250503_211216-ymwiwge2\logs\debug.log
+2025-05-03 21:12:16,028 INFO    MainThread:18016 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\diabetes_project_MLOPS\diabetes_project_MLOPS\wandb\run-20250503_211216-ymwiwge2\logs\debug-internal.log
+2025-05-03 21:12:16,029 INFO    MainThread:18016 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000027244671B50>
+2025-05-03 21:12:16,031 INFO    MainThread:18016 [wandb_init.py:init():761] calling init triggers
+2025-05-03 21:12:16,032 INFO    MainThread:18016 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-03 21:12:16,032 INFO    MainThread:18016 [wandb_init.py:init():784] starting backend
+2025-05-03 21:12:16,032 INFO    MainThread:18016 [wandb_init.py:init():788] sending inform_init request
+2025-05-03 21:12:16,040 INFO    MainThread:18016 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-05-03 21:12:16,041 INFO    MainThread:18016 [wandb_init.py:init():798] backend started and connected
+2025-05-03 21:12:16,075 INFO    MainThread:18016 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-05-03 21:12:16,280 INFO    MainThread:18016 [wandb_init.py:init():891] updated telemetry
+2025-05-03 21:12:16,283 INFO    MainThread:18016 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-05-03 21:12:16,988 INFO    MainThread:18016 [wandb_init.py:init():990] starting run threads in backend
+2025-05-03 21:12:17,841 INFO    MainThread:18016 [wandb_run.py:_console_start():2375] atexit reg
+2025-05-03 21:12:17,842 INFO    MainThread:18016 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-05-03 21:12:17,843 INFO    MainThread:18016 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-05-03 21:12:17,843 INFO    MainThread:18016 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-05-03 21:12:17,845 INFO    MainThread:18016 [wandb_init.py:init():1032] run started, returning control to user process
+2025-05-03 21:12:53,054 INFO    MainThread:18016 [wandb_run.py:_finish():2112] finishing run ngocnhi-p4work-national-economics-university/diabetes/ymwiwge2
+2025-05-03 21:12:53,056 ERROR   MainThread:18016 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-05-03 21:12:53,057 INFO    MainThread:18016 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-03 21:12:53,057 INFO    MainThread:18016 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-05-03 21:12:53,058 INFO    MainThread:18016 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-05-03 21:12:53,060 INFO    MainThread:18016 [wandb_run.py:_restore():2322] restore
+2025-05-03 21:12:53,060 INFO    MainThread:18016 [wandb_run.py:_restore():2328] restore done
+2025-05-03 21:12:56,396 INFO    MainThread:18016 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-05-03 21:12:56,396 INFO    MainThread:18016 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-05-03 21:12:56,396 INFO    MainThread:18016 [wandb_run.py:_footer_sync_info():3917] logging synced files

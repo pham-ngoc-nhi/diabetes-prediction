@@ -1,0 +1,29 @@
+{
+  "os":  "Windows-10-10.0.22621-SP0",
+  "python":  "CPython 3.11.7",
+  "startedAt":  "2025-05-04T02:15:00.405269Z",
+  "args":  [
+    "source.api.main:app",
+    "--reload"
+  ],
+  "program":  "<python with no main file>",
+  "email":  "ngocnhi.p4work@gmail.com",
+  "root":  "C:\\Users\\Admin\\Desktop\\MLOps\\hi\\final",
+  "host":  "PC-",
+  "executable":  "C:\\Users\\Admin\\anaconda3\\python.exe",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "161062318080",
+      "used":  "146779176960"
+    }
+  },
+  "memory":  {
+    "total":  "16905965568"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

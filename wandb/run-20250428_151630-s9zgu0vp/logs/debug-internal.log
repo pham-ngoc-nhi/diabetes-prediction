@@ -1,0 +1,25 @@
+{"time":"2025-04-28T15:16:30.0866402+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\Admin\\Desktop\\MLOps\\Project\\wandb\\run-20250428_151630-s9zgu0vp\\logs\\debug-core.log"}
+{"time":"2025-04-28T15:16:31.7313073+07:00","level":"INFO","msg":"created new stream","id":"s9zgu0vp"}
+{"time":"2025-04-28T15:16:31.7313073+07:00","level":"INFO","msg":"stream: started","id":"s9zgu0vp"}
+{"time":"2025-04-28T15:16:31.7313073+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"s9zgu0vp"}
+{"time":"2025-04-28T15:16:31.7313073+07:00","level":"INFO","msg":"sender: started","stream_id":"s9zgu0vp"}
+{"time":"2025-04-28T15:16:31.7313073+07:00","level":"INFO","msg":"handler: started","stream_id":"s9zgu0vp"}
+{"time":"2025-04-28T15:16:32.0822752+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-28T15:16:32.0841764+07:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-04-28T15:17:15.3678994+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-28T15:17:15.3735362+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-28T15:17:22.1046536+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-28T15:17:22.1096693+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-28T15:17:29.0206712+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-28T15:17:31.2574033+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-04-28T15:17:32.3564835+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-28T15:20:01.1520037+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-28T15:20:01.5553558+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-28T15:20:01.5558609+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-28T15:20:02.5737453+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact source-diabetes-c__Users_Admin_Desktop_MLOps_Project_2_eda.ipynb","runtime_seconds":1.4328753,"subtasks":[{"desc":"2_eda.ipynb","runtime_seconds":0.2701504,"progress":"27.5KB/27.5KB"}]},{"desc":"uploading artifact source-diabetes-c__Users_Admin_Desktop_MLOps_Project_2_eda.ipynb","runtime_seconds":1.0323677},{"desc":"uploading output.log","runtime_seconds":0.7280354,"progress":"117B/117B"},{"desc":"uploading config.yaml","runtime_seconds":0.4609746,"progress":"481B/481B"}],"total_operations":4}}
+{"time":"2025-04-28T15:20:04.4348619+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-28T15:20:04.8236715+07:00","level":"INFO","msg":"stream: closing","id":"s9zgu0vp"}
+{"time":"2025-04-28T15:20:04.8236715+07:00","level":"INFO","msg":"handler: closed","stream_id":"s9zgu0vp"}
+{"time":"2025-04-28T15:20:04.8236715+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s9zgu0vp"}
+{"time":"2025-04-28T15:20:04.8236715+07:00","level":"INFO","msg":"sender: closed","stream_id":"s9zgu0vp"}
+{"time":"2025-04-28T15:20:04.8241986+07:00","level":"INFO","msg":"stream: closed","id":"s9zgu0vp"}

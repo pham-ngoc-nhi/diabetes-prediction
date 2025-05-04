@@ -1,0 +1,40 @@
+Note: you may need to restart the kernel to use updated packages.Requirement already satisfied: wandb in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (0.19.8)
+
+[notice] A new release of pip is available: 24.2 -> 25.1
+
+Requirement already satisfied: click!=8.0.0,>=7.1 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (8.1.7)
+[notice] To update, run: python.exe -m pip install --upgrade pip
+Requirement already satisfied: docker-pycreds>=0.4.0 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (0.4.0)
+Requirement already satisfied: gitpython!=3.1.29,>=1.0.0 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (3.1.40)
+Requirement already satisfied: platformdirs in c:\users\x-hp\appdata\roaming\python\python311\site-packages (from wandb) (3.10.0)
+Requirement already satisfied: protobuf!=4.21.0,!=5.28.0,<6,>=3.19.0 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (5.29.3)
+Requirement already satisfied: psutil>=5.0.0 in c:\users\x-hp\appdata\roaming\python\python311\site-packages (from wandb) (5.9.5)
+Requirement already satisfied: pydantic<3,>=2.6 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (2.10.4)
+Requirement already satisfied: pyyaml in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (6.0.2)
+Requirement already satisfied: requests<3,>=2.0.0 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (2.32.3)
+Requirement already satisfied: sentry-sdk>=2.0.0 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (2.24.0)
+Requirement already satisfied: setproctitle in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (1.3.5)
+Requirement already satisfied: setuptools in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (65.5.0)
+Requirement already satisfied: typing-extensions<5,>=4.4 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from wandb) (4.12.2)
+Requirement already satisfied: colorama in c:\users\x-hp\appdata\roaming\python\python311\site-packages (from click!=8.0.0,>=7.1->wandb) (0.4.6)
+Requirement already satisfied: six>=1.4.0 in c:\users\x-hp\appdata\roaming\python\python311\site-packages (from docker-pycreds>=0.4.0->wandb) (1.16.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from gitpython!=3.1.29,>=1.0.0->wandb) (4.0.11)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from pydantic<3,>=2.6->wandb) (0.7.0)
+Requirement already satisfied: pydantic-core==2.27.2 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from pydantic<3,>=2.6->wandb) (2.27.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from requests<3,>=2.0.0->wandb) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from requests<3,>=2.0.0->wandb) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from requests<3,>=2.0.0->wandb) (2024.12.14)
+Requirement already satisfied: smmap<6,>=3.0.1 in c:\users\x-hp\appdata\local\programs\python\python311\lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.29,>=1.0.0->wandb) (5.0.1)
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[0m:   1 of 1 files downloaded.
+Shape before cleaning:  (768, 9)
+Columns with minimum value 0: ['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']
+Columns to create NA_FLAG: ['BloodPressure', 'BMI']
+Columns to just fill median: ['Glucose', 'SkinThickness', 'Insulin']
+Observations: 768
+Variables: 19
+cat_cols: 9
+num_cols: 10
+cat_but_car: 0
+num_but_cat: 5

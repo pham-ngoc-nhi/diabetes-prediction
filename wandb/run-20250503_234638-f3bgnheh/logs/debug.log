@@ -1,0 +1,16 @@
+2025-05-03 23:46:38,213 INFO    MainThread:17132 [wandb_init.py:setup_run_log_directory():647] Logging user logs to c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\diabetes_project_MLOPS\diabetes_project_MLOPS\wandb\run-20250503_234638-f3bgnheh\logs\debug.log
+2025-05-03 23:46:38,214 INFO    MainThread:17132 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to c:\Users\x-hp\OneDrive - National Economics University\Desktop\ML Ops\FINAL\diabetes_project_MLOPS\diabetes_project_MLOPS\wandb\run-20250503_234638-f3bgnheh\logs\debug-internal.log
+2025-05-03 23:46:38,215 INFO    MainThread:17132 [wandb_init.py:init():761] calling init triggers
+2025-05-03 23:46:38,215 INFO    MainThread:17132 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-03 23:46:38,216 INFO    MainThread:17132 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-05-04 00:00:03,808 INFO    MainThread:17132 [wandb_run.py:_finish():2112] finishing run ngocnhi-p4work-national-economics-university/diabetes/hhn562u5
+2025-05-04 00:00:03,811 ERROR   MainThread:17132 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-05-04 00:00:03,811 INFO    MainThread:17132 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-05-04 00:00:03,811 INFO    MainThread:17132 [wandb_init.py:_jupyter_teardown():581] cleaning up jupyter logic
+2025-05-04 00:00:03,811 INFO    MainThread:17132 [wandb_run.py:_atexit_cleanup():2340] got exitcode: 0
+2025-05-04 00:00:03,812 INFO    MainThread:17132 [wandb_run.py:_restore():2322] restore
+2025-05-04 00:00:03,812 INFO    MainThread:17132 [wandb_run.py:_restore():2328] restore done
+2025-05-04 00:00:08,154 INFO    MainThread:17132 [wandb_run.py:_footer_history_summary_info():3956] rendering history
+2025-05-04 00:00:08,155 INFO    MainThread:17132 [wandb_run.py:_footer_history_summary_info():3988] rendering summary
+2025-05-04 00:00:08,156 INFO    MainThread:17132 [wandb_run.py:_footer_sync_info():3917] logging synced files

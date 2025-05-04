@@ -1,0 +1,17 @@
+{"time":"2025-04-29T21:24:44.9582103+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\Admin\\Desktop\\MLOps\\Project\\wandb\\run-20250429_212442-gpvc8tcx\\logs\\debug-core.log"}
+{"time":"2025-04-29T21:24:45.266031+07:00","level":"INFO","msg":"created new stream","id":"gpvc8tcx"}
+{"time":"2025-04-29T21:24:45.266031+07:00","level":"INFO","msg":"stream: started","id":"gpvc8tcx"}
+{"time":"2025-04-29T21:24:45.266031+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"gpvc8tcx"}
+{"time":"2025-04-29T21:24:45.266031+07:00","level":"INFO","msg":"handler: started","stream_id":"gpvc8tcx"}
+{"time":"2025-04-29T21:24:45.2665689+07:00","level":"INFO","msg":"sender: started","stream_id":"gpvc8tcx"}
+{"time":"2025-04-29T21:24:45.6757722+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T21:24:48.1350532+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-04-29T21:24:49.2122976+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-29T21:24:49.2133163+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-29T21:24:50.2311058+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.5973439,"progress":"123B/123B"},{"desc":"uploading config.yaml","runtime_seconds":0.1762228,"progress":"445B/445B"}],"total_operations":2}}
+{"time":"2025-04-29T21:24:50.6140922+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-29T21:24:51.0326039+07:00","level":"INFO","msg":"stream: closing","id":"gpvc8tcx"}
+{"time":"2025-04-29T21:24:51.0326039+07:00","level":"INFO","msg":"handler: closed","stream_id":"gpvc8tcx"}
+{"time":"2025-04-29T21:24:51.0326039+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gpvc8tcx"}
+{"time":"2025-04-29T21:24:51.0326039+07:00","level":"INFO","msg":"sender: closed","stream_id":"gpvc8tcx"}
+{"time":"2025-04-29T21:24:51.033187+07:00","level":"INFO","msg":"stream: closed","id":"gpvc8tcx"}

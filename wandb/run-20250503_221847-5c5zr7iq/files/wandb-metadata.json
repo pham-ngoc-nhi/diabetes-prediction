@@ -1,0 +1,27 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "CPython 3.11.4",
+  "startedAt":  "2025-05-03T15:18:47.060454Z",
+  "program":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\diabetes_project_MLOPS\\diabetes_project_MLOPS\\3_preprocessing_improved.ipynb",
+  "codePath":  "3_preprocessing_improved.ipynb",
+  "email":  "mlcolongmay@gmail.com",
+  "root":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\diabetes_project_MLOPS\\diabetes_project_MLOPS",
+  "host":  "DESKTOP-C021RC1",
+  "executable":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\.venv\\Scripts\\python.exe",
+  "codePathLocal":  "3_preprocessing_improved.ipynb",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "disk":  {
+    "/":  {
+      "total":  "254805131264",
+      "used":  "225579761664"
+    }
+  },
+  "memory":  {
+    "total":  "8459083776"
+  },
+  "cpu":  {
+    "count":  2,
+    "countLogical":  4
+  }
+}

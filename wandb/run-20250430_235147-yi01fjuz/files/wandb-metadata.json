@@ -1,0 +1,36 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2025-04-30T16:51:47.436655Z",
+  "args":  [
+    "artifact",
+    "put",
+    "--name",
+    "diabetes/raw_data.csv",
+    "--type",
+    "raw_data",
+    "--description",
+    "The raw diabetes data from  from the National Institute of Diabetes and Digestive and Kidney Diseases.",
+    "raw_data.csv"
+  ],
+  "program":  "-m __main__",
+  "email":  "mlcolongmay@gmail.com",
+  "root":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\Project",
+  "host":  "DESKTOP-C021RC1",
+  "executable":  "C:\\Users\\x-hp\\anaconda3\\python.exe",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "disk":  {
+    "/":  {
+      "total":  "254805131264",
+      "used":  "212893884416"
+    }
+  },
+  "memory":  {
+    "total":  "8459083776"
+  },
+  "cpu":  {
+    "count":  2,
+    "countLogical":  4
+  }
+}

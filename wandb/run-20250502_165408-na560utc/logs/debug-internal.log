@@ -1,0 +1,16 @@
+{"time":"2025-05-02T16:54:11.0602119+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Admin\\Desktop\\MLOps\\diabetes_project_MLOPS\\wandb\\run-20250502_165408-na560utc\\logs\\debug-core.log"}
+{"time":"2025-05-02T16:54:11.2448519+07:00","level":"INFO","msg":"created new stream","id":"na560utc"}
+{"time":"2025-05-02T16:54:11.2453568+07:00","level":"INFO","msg":"stream: started","id":"na560utc"}
+{"time":"2025-05-02T16:54:11.245407+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"na560utc"}
+{"time":"2025-05-02T16:54:11.245407+07:00","level":"INFO","msg":"sender: started","stream_id":"na560utc"}
+{"time":"2025-05-02T16:54:11.245407+07:00","level":"INFO","msg":"handler: started","stream_id":"na560utc"}
+{"time":"2025-05-02T16:54:11.7421936+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-02T16:54:29.3691134+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-02T16:54:31.1531272+07:00","level":"INFO","msg":"stream: closing","id":"na560utc"}
+{"time":"2025-05-02T16:54:31.1531272+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-02T16:54:31.1536331+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-02T16:54:32.4458918+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-02T16:54:32.8445717+07:00","level":"INFO","msg":"handler: closed","stream_id":"na560utc"}
+{"time":"2025-05-02T16:54:32.8445717+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"na560utc"}
+{"time":"2025-05-02T16:54:32.8445717+07:00","level":"INFO","msg":"sender: closed","stream_id":"na560utc"}
+{"time":"2025-05-02T16:54:32.8445717+07:00","level":"INFO","msg":"stream: closed","id":"na560utc"}

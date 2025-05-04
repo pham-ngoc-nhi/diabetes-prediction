@@ -1,0 +1,28 @@
+[31mERROR[0m:    Traceback (most recent call last):
+  File "C:\Users\Admin\anaconda3\Lib\site-packages\starlette\routing.py", line 692, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+  File "C:\Users\Admin\anaconda3\Lib\site-packages\starlette\routing.py", line 569, in __aenter__
+    await self._router.startup()
+  File "C:\Users\Admin\anaconda3\Lib\site-packages\starlette\routing.py", line 671, in startup
+    handler()
+  File "C:\Users\Admin\Desktop\MLOps\diabetes_project_MLOPS\source\api\main.py", line 40, in load_model
+    model_export_path = artifact.file()
+                        ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\site-packages\wandb\sdk\artifacts\_validators.py", line 98, in wrapper
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\site-packages\wandb\sdk\artifacts\artifact.py", line 2087, in file
+    return self.get_entry(list(self.manifest.entries)[0]).download(root)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\site-packages\wandb\sdk\artifacts\artifact_manifest_entry.py", line 159, in download
+    md5_hash = md5_file_b64(dest_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\site-packages\wandb\sdk\lib\hashutil.py", line 47, in md5_file_b64
+    return _b64_from_hasher(_md5_file_hasher(*paths))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\anaconda3\Lib\site-packages\wandb\sdk\lib\hashutil.py", line 64, in _md5_file_hasher
+    with open(path, "rb") as f:
+         ^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: '.\\artifacts\\model_export:latest\\final_model_xgboost.pkl'
+
+[31mERROR[0m:    Application startup failed. Exiting.

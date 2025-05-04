@@ -1,0 +1,38 @@
+{"time":"2025-05-03T21:04:30.7677998+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\diabetes_project_MLOPS\\diabetes_project_MLOPS\\wandb\\run-20250503_210430-q7ta1wl0\\logs\\debug-core.log"}
+{"time":"2025-05-03T21:04:31.5649964+07:00","level":"INFO","msg":"created new stream","id":"q7ta1wl0"}
+{"time":"2025-05-03T21:04:31.5649964+07:00","level":"INFO","msg":"stream: started","id":"q7ta1wl0"}
+{"time":"2025-05-03T21:04:31.5658504+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"q7ta1wl0"}
+{"time":"2025-05-03T21:04:31.5658504+07:00","level":"INFO","msg":"sender: started","stream_id":"q7ta1wl0"}
+{"time":"2025-05-03T21:04:31.5658504+07:00","level":"INFO","msg":"handler: started","stream_id":"q7ta1wl0"}
+{"time":"2025-05-03T21:04:32.1163497+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-03T21:04:34.3871417+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-03T21:04:36.7703898+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T21:05:25.4147662+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T21:05:25.4147662+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T21:05:31.3677504+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T21:05:57.4028668+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T21:05:57.4028668+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T21:06:04.8886496+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T21:06:04.8886496+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T21:06:04.8886496+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T21:06:04.8886496+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T21:06:04.9115756+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T21:06:04.9380191+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T21:06:04.9457265+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T21:06:04.9614771+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T21:06:04.9872054+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T21:06:05.0118454+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T21:06:05.0118454+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T21:06:05.0473542+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T21:06:05.0473542+07:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-03T21:06:05.0782713+07:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-03T21:06:07.8835701+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-05-03T21:06:37.5109969+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-03T21:06:37.5138004+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-03T21:06:38.5148281+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\html\\eda_report_0_5bc089bc2d34bd69f56c.html","runtime_seconds":0.7407711,"progress":"512.0KB/7.2MB"},{"desc":"uploading output.log","runtime_seconds":0.3389732,"progress":"14.1KB/14.1KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3389732,"progress":"278B/278B"},{"desc":"uploading config.yaml","runtime_seconds":0.0587498}],"total_operations":4}}
+{"time":"2025-05-03T21:06:43.5927455+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-03T21:06:44.2073871+07:00","level":"INFO","msg":"stream: closing","id":"q7ta1wl0"}
+{"time":"2025-05-03T21:06:44.2073871+07:00","level":"INFO","msg":"handler: closed","stream_id":"q7ta1wl0"}
+{"time":"2025-05-03T21:06:44.2073871+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"q7ta1wl0"}
+{"time":"2025-05-03T21:06:44.210663+07:00","level":"INFO","msg":"sender: closed","stream_id":"q7ta1wl0"}
+{"time":"2025-05-03T21:06:44.2111819+07:00","level":"INFO","msg":"stream: closed","id":"q7ta1wl0"}

@@ -1,0 +1,27 @@
+{
+  "os":  "Windows-10-10.0.19045-SP0",
+  "python":  "CPython 3.11.4",
+  "startedAt":  "2025-05-03T15:47:22.961613Z",
+  "program":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\diabetes_project_MLOPS\\diabetes_project_MLOPS\\5_data_segregation_final.ipynb",
+  "codePath":  "5_data_segregation_final.ipynb",
+  "email":  "mlcolongmay@gmail.com",
+  "root":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\FINAL\\diabetes_project_MLOPS\\diabetes_project_MLOPS",
+  "host":  "DESKTOP-C021RC1",
+  "executable":  "c:\\Users\\x-hp\\OneDrive - National Economics University\\Desktop\\ML Ops\\.venv\\Scripts\\python.exe",
+  "codePathLocal":  "5_data_segregation_final.ipynb",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "disk":  {
+    "/":  {
+      "total":  "254805131264",
+      "used":  "225630789632"
+    }
+  },
+  "memory":  {
+    "total":  "8459083776"
+  },
+  "cpu":  {
+    "count":  2,
+    "countLogical":  4
+  }
+}

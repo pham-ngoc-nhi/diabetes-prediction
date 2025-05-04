@@ -1,0 +1,36 @@
+{"time":"2025-04-29T21:28:19.7577009+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\Admin\\Desktop\\MLOps\\Project\\wandb\\run-20250429_212819-ngxdtpn1\\logs\\debug-core.log"}
+{"time":"2025-04-29T21:28:20.4256314+07:00","level":"INFO","msg":"created new stream","id":"ngxdtpn1"}
+{"time":"2025-04-29T21:28:20.4262909+07:00","level":"INFO","msg":"stream: started","id":"ngxdtpn1"}
+{"time":"2025-04-29T21:28:20.4262909+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ngxdtpn1"}
+{"time":"2025-04-29T21:28:20.4262909+07:00","level":"INFO","msg":"handler: started","stream_id":"ngxdtpn1"}
+{"time":"2025-04-29T21:28:20.4262909+07:00","level":"INFO","msg":"sender: started","stream_id":"ngxdtpn1"}
+{"time":"2025-04-29T21:28:20.8352423+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T21:28:23.3462956+07:00","level":"WARN","msg":"sender: sendUseArtifact: job builder disabled, skipping"}
+{"time":"2025-04-29T21:28:35.8486433+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:28:50.8512309+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:29:05.8710227+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:29:20.8497054+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:29:35.8516979+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:29:50.8712479+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:30:05.8492572+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:30:20.8494222+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:30:35.8506861+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:30:50.8488325+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:31:05.8546822+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:31:20.8510744+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:31:35.8638229+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:31:50.8569274+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:32:05.8505902+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:32:20.8495561+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:32:35.8548913+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:32:50.8522622+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:33:05.8550988+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:33:20.8533072+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:33:35.8504846+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:33:50.853883+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:34:05.8561571+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:34:20.8527705+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:34:35.8507242+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:34:50.8525306+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:35:05.8636885+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
+{"time":"2025-04-29T21:35:20.8562942+07:00","level":"ERROR","msg":"monitor: error sampling metrics: couldn't find pid: 47700"}
