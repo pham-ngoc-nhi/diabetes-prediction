@@ -1,36 +1,32 @@
-name: CI
+name: 🚀 Deploy Streamlit App
 
 on:
   push:
-    branches: [main]
-  workflow_dispatch: # Thêm để chạy thủ công
+    branches:
+      - main  # hoặc "master" tùy theo branch mặc định của bạn
+  workflow_dispatch:  # cho phép chạy thủ công từ GitHub UI
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source code
-        uses: actions/checkout@v4 # Cập nhật lên v4 (mới nhất)
+    - name: 🛎️ Checkout code
+      uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v5 # Cập nhật lên v5 (mới nhất)
-        with:
-          python-version: '3.8'
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+    - name: 📦 Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
 
-      - name: Login to Weights & Biases
-        env:
-          WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
-        run: |
-          wandb login $WANDB_API_KEY
-        continue-on-error: true # Nếu W&B lỗi, không làm hỏng workflow
-
-      - name: Run tests
-        run: |
-          pytest source/api -vv -s --junitxml=test-report.xml
-        continue-on-error: true # Nếu test lỗi, không làm hỏng workflow
+    - name: 🚀 Deploy to Streamlit Community Cloud
+      uses: streamlit/streamlit-app-action@v1
+      with:
+        app_path: source/api/diabetes_prediction_app.py
+        email: ${{ secrets.STREAMLIT_EMAIL }}
+        password: ${{ secrets.STREAMLIT_PASSWORD }}
