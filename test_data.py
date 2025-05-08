@@ -3,105 +3,105 @@ import pytest
 import pandas as pd
 import os
 
-# Khởi tạo W&B run với entity và project tách biệt
-print("Đang khởi tạo W&B...")
+# Initialize a W&B run with separate entity and project
+print("Initializing W&B...")
 try:
     run = wandb.init(
-        entity="ngocnhi-p4work-national-economics-university",  # Tên entity
-        project="diabetes",  # Tên project
+        entity="ngocnhi-p4work-national-economics-university",  
+        project="diabetes",  
         job_type="data_checks"
     )
-    print("Khởi tạo W&B thành công")
+    print("W&B initialization successful")
 except Exception as e:
-    print(f"Lỗi khi khởi tạo W&B: {e}")
+    print(f"Error during W&B initialization: {e}")
     raise
 
 @pytest.fixture(scope="session")
 def data():
     """
-    Fixture để tải tập dữ liệu diabetes từ W&B artifact.
+    Fixture to load the diabetes dataset from a W&B artifact.
     """
-    print("Đang tải artifact...")
+    print("Loading artifact...")
     try:
         artifact = run.use_artifact("preprocessed_data.csv:latest", type="clean_data")
-        artifact_dir = artifact.download()  # Tải thư mục chứa artifact
-        local_path = os.path.join(artifact_dir, "preprocessed_data.csv")  # Nối đường dẫn đến file thực tế
-        print(f"Artifact đã được tải về tại {local_path}")
+        artifact_dir = artifact.download()  # Load the directory containing the artifact
+        local_path = os.path.join(artifact_dir, "preprocessed_data.csv")  # Concatenate the path to the actual file
+        print(f"Artifact has been downloaded at {local_path}")
         df = pd.read_csv(local_path)
-        print(f"Dữ liệu đã được tải thành công: {df.shape}")
-        print("Các cột:", df.columns.tolist())
+        print(f"Data has been loaded successfully: {df.shape}")
+        print("Columns:", df.columns.tolist())
         return df
     except Exception as e:
-        print(f"Lỗi khi tải artifact hoặc đọc dữ liệu: {e}")
+        print(f"Error while loading artifact or reading data: {e}")
         raise
 
 def test_no_missing_values(data):
-    assert data.isnull().sum().sum() == 0, "Dữ liệu còn chứa missing values"
+    assert data.isnull().sum().sum() == 0, "Data still contains missing values"
 
 def test_class_balance(data, threshold=0.9):
     class_counts = data['OUTCOME'].value_counts(normalize=True)
     max_class_ratio = class_counts.max()
-    assert max_class_ratio < threshold, f"Dữ liệu mất cân bằng: {class_counts.to_dict()}"
+    assert max_class_ratio < threshold, f"Data is imbalanced: {class_counts.to_dict()}"
 
 def test_duplicate_rows(data):
     duplicate_count = data.duplicated().sum()
-    assert duplicate_count == 0, f"Dữ liệu có {duplicate_count} dòng trùng lặp"
+    assert duplicate_count == 0, f"Data has {duplicate_count} duplicated rows"
 
 def test_data_length(data):
     """
-    Kiểm tra xem tập dữ liệu có đủ số hàng để tiếp tục không.
+    Check if the dataset has enough rows to proceed.
     """
-    print("Đang chạy test_data_length...")
-    assert len(data) > 500, f"Tập dữ liệu có {len(data)} hàng, cần > 500"
+    print("Running test_data_length...")
+    assert len(data) > 500, f"Dataset has {len(data)} rows, need > 500"
 
 def test_number_of_columns(data):
     """
-    Kiểm tra xem tập dữ liệu có đúng số cột mong đợi không.
+    Check if the dataset has the expected number of columns.
     """
-    print("Đang chạy test_number_of_columns...")
+    print("Running test_number_of_columns...")
     expected_min_columns = 9
-    assert data.shape[1] >= expected_min_columns, f"Tập dữ liệu có {data.shape[1]} cột, cần >= {expected_min_columns} cột"
+    assert data.shape[1] >= expected_min_columns, f"Dataset has {data.shape[1]} columns, need >= {expected_min_columns} columns"
 
 
 def test_column_presence_and_type(data):
     """
-    Kiểm tra kiểu dữ liệu: OUTCOME là số nguyên, các cột còn lại là số thực.
+    Check data types: OUTCOME is an integer, the remaining columns are floats.
     """
-    print("Đang chạy test_column_presence_and_type...")
+    print("Running test_column_presence_and_type...")
 
-    # 1. Đảm bảo có cột OUTCOME
-    assert "OUTCOME" in data.columns, "Thiếu cột OUTCOME"
+    # 1. Ensure that the OUTCOME column is present
+    assert "OUTCOME" in data.columns, "Missing column OUTCOME"
 
-    # 2. Kiểm tra kiểu dữ liệu của OUTCOME
-    assert pd.api.types.is_integer_dtype(data["OUTCOME"]), "Cột OUTCOME không phải kiểu số nguyên"
+    # 2. Check the data type of OUTCOME
+    assert pd.api.types.is_integer_dtype(data["OUTCOME"]), "The OUTCOME column is not of integer type"
 
-    # 3. Kiểm tra các cột còn lại là numeric
+    # 3. Check that the remaining columns are numeric
     feature_cols = [col for col in data.columns if col != "OUTCOME"]
     for col in feature_cols:
-        assert pd.api.types.is_numeric_dtype(data[col]), f"Cột {col} không phải dạng số (numeric)"
+        assert pd.api.types.is_numeric_dtype(data[col]), f"Column {col} is not in numeric format"
 
 
 def test_class_names(data):
     """
-    Kiểm tra cột Outcome chỉ chứa các giá trị hợp lệ (0 hoặc 1).
+    Check that the Outcome column contains only valid values (0 or 1).
     """
-    print("Đang chạy test_class_names...")
+    print("Running test_class_names...")
     known_classes = [0, 1]
     assert data["OUTCOME"].isin(known_classes).all(), \
-        f"Cột Outcome chứa giá trị không hợp lệ: {data['OUTCOME'].unique()}"
+        f"The Outcome column contains invalid values: {data['OUTCOME'].unique()}"
 
 def test_column_ranges(data):
     """
-    Kiểm tra các cột số có giá trị nằm trong khoảng hợp lý (không âm và không cực đoan).
+    Check that the numeric columns have values within a reasonable range (non-negative and not extreme).
     """
-    print("Đang chạy test_column_ranges...")
+    print("Running test_column_ranges...")
 
-    # Bỏ OUTCOME
+    # Drop OUTCOME
     feature_cols = [col for col in data.columns if col != "OUTCOME" and pd.api.types.is_numeric_dtype(data[col])]
 
     for col in feature_cols:
         min_val, max_val = data[col].min(), data[col].max()
 
-        # Nếu tất cả giá trị đều âm hoặc rất cao, có thể là lỗi
-        assert min_val >= 0, f"Cột {col} chứa giá trị âm (min={min_val})"
-        assert max_val < 1e6, f"Cột {col} có giá trị cực lớn (max={max_val})"
+        # If all values are negative or very high, it could be an error
+        assert min_val >= 0, f"Column {col} has negative value (min={min_val})"
+        assert max_val < 1e6, f"Column {col} has very high value (max={max_val})"
