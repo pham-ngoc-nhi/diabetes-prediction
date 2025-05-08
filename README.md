@@ -72,7 +72,7 @@ streamlit run source/api/diabetes_prediction_app.py
 ## 🧠 Huấn luyện lại mô hình
 
 ```bash
-python source/api/train_full_pipeline_model.py
+python source/api/pipeline.py
 ```
 
 ---
