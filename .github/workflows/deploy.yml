@@ -3,8 +3,8 @@ name: 🚀 Deploy Streamlit App
 on:
   push:
     branches:
-      - main  # hoặc "master" tùy theo branch mặc định của bạn
-  workflow_dispatch:  # cho phép chạy thủ công từ GitHub UI
+      - main  
+  workflow_dispatch:  # allows manual trigger from the GitHub UI
 
 jobs:
   deploy:
