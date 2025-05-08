@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load model
-MODEL_PATH = "model/final_model.pkl"  # Đường dẫn tương đối tính từ root project
+MODEL_PATH = "model/final_model.pkl"  # Relative path from the project root
 if not os.path.exists(MODEL_PATH):
     raise FileNotFoundError(f"Model not found at {MODEL_PATH}")
 
