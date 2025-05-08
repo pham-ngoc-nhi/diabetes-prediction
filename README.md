@@ -1,17 +1,16 @@
 # 📊 Diabetes Prediction App
 
-Ứng dụng web dự đoán khả năng mắc bệnh tiểu đường dựa trên các chỉ số sức khỏe như glucose, BMI, insulin, tuổi, v.v.
+A web application that predicts the likelihood of diabetes based on health indicators such as glucose, BMI, insulin, age, etc.
 
-## 🚀 Tính năng nổi bật
-- Huấn luyện trên bộ dữ liệu Pima Indian Diabetes
-- Pipeline tiền xử lý đầy đủ (xử lý giá trị 0, tạo đặc trưng mới, mã hóa, chọn đặc trưng)
-- Mô hình XGBoost với tham số được tối ưu bằng Optuna
-- Giao diện Streamlit trực quan cho dự đoán trực tiếp
-- Theo dõi và lưu trữ mô hình với Weights & Biases (W&B)
-
+## 🚀 Key features
+- Train on the Pima Indian Diabetes dataset
+- Complete preprocessing pipeline (handling zero values, feature creation, encoding, feature selection)
+- XGBoost model with parameters optimized by Optuna
+- Streamlit interface for direct prediction visualization
+- Track and store the model with Weights & Biases (W&B)
 ---
 
-## 🗂️ Cấu trúc thư mục
+## 🗂️ Folder structure
 
 ```
 diabetes-prediction/
@@ -44,24 +43,24 @@ diabetes-prediction/
 
 ---
 
-## ⚙️ Cài đặt môi trường
+## ⚙️ Set up the environment
 
 ```bash
 # Clone repository
 git clone https://github.com/pham-ngoc-nhi/diabetes-prediction.git
 cd diabetes-prediction
 
-# Tạo và kích hoạt môi trường ảo
+# Create and activate a virtual environment
 python -m venv .venv
 source .venv/bin/activate  # Trên Windows: .venv\Scripts\activate
 
-# Cài đặt các thư viện phụ thuộc
+# Install the dependencies
 pip install -r requirements.txt
 ```
 
 ---
 
-## ▶️ Chạy ứng dụng
+## ▶️ Run the application
 
 ```bash
 streamlit run source/api/diabetes_prediction_app.py
@@ -69,7 +68,7 @@ streamlit run source/api/diabetes_prediction_app.py
 
 ---
 
-## 🧠 Huấn luyện lại mô hình
+## 🧠 Retrain the model
 
 ```bash
 python source/api/pipeline.py
@@ -77,9 +76,9 @@ python source/api/pipeline.py
 
 ---
 
-## 📝 Ví dụ đầu vào
+## 📝 Input example
 
-| Chỉ số                     | Giá trị mẫu |
+| Indicator                  | Sample value|
 |----------------------------|-------------|
 | Pregnancies                | 2           |
 | Glucose                    | 130         |
@@ -92,7 +91,7 @@ python source/api/pipeline.py
 
 ---
 
-## 🧪 Kiểm thử
+## 🧪 Testing
 
 ```bash
 pytest
