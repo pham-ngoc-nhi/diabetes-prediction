@@ -1,15 +1,15 @@
-# Sử dụng image Python chính thức làm base image
+# Use the official Python image as the base image.
 FROM python:3.11-slim
 
-# Đặt thư mục làm việc trong container
+# Set the working directory in the container
 WORKDIR /app
 
-# Sao chép requirements.txt trước để tận dụng cache của Docker
+# Copy the requirements.txt first to take advantage of Docker's cache
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Sao chép toàn bộ mã nguồn và mô hình
+# Copy the entire source code and model
 COPY . .
 
-# Chạy ứng dụng Streamlit khi container khởi động
+# Run the Streamlit application when the container starts
 CMD ["streamlit", "run", "source/api/diabetes_prediction_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
