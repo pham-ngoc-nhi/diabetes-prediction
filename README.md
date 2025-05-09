@@ -192,17 +192,9 @@ python source/api/pipeline.py
 
 ---
 
-## 🧪 Testing
-
-```bash
-pytest source/api/test_diabetes_prediction.py -vv -s
-```
-
----
-
 ## 🧪📋 Unit Tests Overview
 
-This project includes two separate sets of unit tests to ensure both **data integrity** and **model reliability**, as well as full model evaluation visualizations, using `pytest` and `Weights & Biases`.
+This project includes three structured sets of unit tests to ensure **data integrity**, **model reliability**, and **full evaluation visualization**, using `pytest` and `Weights & Biases`.
 
 ---
 
@@ -225,9 +217,10 @@ Run this test suite with:
 
 ```bash
 pytest test_data.py -vv -s
----
+```
 
 ---
+
 ### ✅ 2. Model Inference Tests (`test_diabetes_prediction.py`)
 
 These tests validate the trained model and its prediction logic:
@@ -239,16 +232,15 @@ These tests validate the trained model and its prediction logic:
 
 These tests ensure the model:
 
-- Can be loaded from disk (`final_model.pkl`)
-- Returns valid predictions (`0` or `1`)
-- Can accept realistic input values
+- Can be loaded from disk (`final_model.pkl`)  
+- Returns valid predictions (`0` or `1`)  
+- Can accept realistic input values  
 
 Run this test suite with:
 
 ```bash
 pytest source/api/test_diabetes_prediction.py -vv -s
-
----
+```
 
 ---
 
@@ -264,11 +256,15 @@ After model evaluation, the following items are automatically logged to **Weight
 | `precision_recall_curve`   | Precision-Recall curve for imbalanced classification |
 | `classification_report`    | Logged as a W&B table showing precision, recall, F1-score per class |
 
-To run and log these evaluations:
+To run and log these evaluations, execute all cells in:
 
 ```bash
-Run all cells in notebooks/7_test.ipynb
+notebooks/7_test.ipynb
+```
+
 ---
+
 ## 📌 Notes
-- Ensure you use the correct versions of scikit-learn==1.1.3 and numpy==1.23.5 to maintain compatibility with the saved model.
-- All artifacts are stored on the W&B project [W&B project](https://wandb.ai/ngocnhi-p4work-national-economics-university/diabetes).
+
+- Ensure you use the correct versions of `scikit-learn==1.1.3` and `numpy==1.23.5` to maintain compatibility with the saved model.
+- All artifacts are stored on the W&B project: [W&B project](https://wandb.ai/ngocnhi-p4work-national-economics-university/diabetes)
