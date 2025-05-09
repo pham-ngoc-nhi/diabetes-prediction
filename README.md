@@ -15,6 +15,18 @@ The project is built using the following technologies:
 
 The model was deployed to the web using the Streamlit package, creating an interactive user interface for predictions. The application was integrated into a CI/CD framework using GitHub Actions, as defined in the .github/workflows/deploy.yml file. After building and testing the Streamlit app locally, it was prepared for deployment, with potential live testing supported by the infrastructure. Weights & Biases were utilized to manage and track all artifacts, including the trained model (final_model.pkl) and pipeline (final_pipeline.pkl), stored and monitored through the platform
 
+![Project Architecture](MLOps_diabetes_architecture.png)
+
+So, in general, the notebooks used were divided into 7 parts:
+
+The search for data
+Exploratory analysis
+Pre-Processing
+Tests
+Splitting the data between training and testing.
+Training
+Test
+
 ## 🚀 Key features
 - Train on the Pima Indian Diabetes dataset
 - Complete preprocessing pipeline (handling zero values, feature creation, encoding, feature selection)
@@ -56,8 +68,7 @@ diabetes-prediction/
 
 ---
 
-## ⚙️ Set up the environment
-
+## ⚙️ Virtual Environment
 ```bash
 # Clone repository
 git clone https://github.com/pham-ngoc-nhi/diabetes-prediction.git
@@ -65,7 +76,14 @@ cd diabetes-prediction
 
 # Create and activate a virtual environment
 python -m venv .venv
-source .venv/bin/activate  # Trên Windows: .venv\Scripts\activate
+
+# To activate this environment , use the following command:
+- For Linux, macOS
+source .venv/bin/activate
+- For Windows command line
+.venv\Scripts\activate
+- For Windows PowerShell
+.venv\Scripts\Activate.ps1
 
 # Install the dependencies
 pip install -r requirements.txt
