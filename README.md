@@ -1,8 +1,14 @@
 # 📊 Diabetes Prediction App
 
-This project develops a simple and accessible web application designed for patients to estimate their risk of diabetes from home. The primary objective is to empower individuals who have undergone medical tests to input their health metrics and receive an early indication of their diabetes likelihood before receiving confirmed results from a doctor. By providing a user-friendly tool, the application aims to support patients in understanding their health status and encourage timely medical consultation.
+This project aims to develop a simple and user-friendly Streamlit application that enables patients to estimate their risk of diabetes at home based on medical test results. By inputting key health metrics such as age, BMI, HbA1c levels, and blood glucose, users can receive a quick prediction of their diabetes risk. The application leverages a machine learning model trained on a diabetes dataset to provide accurate and reliable predictions.
 
-The application is built using Streamlit to create an intuitive web interface, Python for the machine learning pipeline, and scikit-learn for the predictive model. Pandas and NumPy handle data processing, while joblib enables model persistence. This lightweight and straightforward design ensures the app is easy for patients to use, making it an effective tool for personal health monitoring
+The project is built using the following technologies:
+
+- Python: Core programming language for data processing and model development.
+- Streamlit: Framework for creating an interactive web-based user interface.
+- scikit-learn: Library for building and training the machine learning model.
+- pandas and NumPy: Libraries for data manipulation and numerical computations.
+- joblib: Used for saving and loading the trained machine learning model.
 
 ## 🚀 Key features
 - Train on the Pima Indian Diabetes dataset
