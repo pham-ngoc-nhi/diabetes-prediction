@@ -19,13 +19,13 @@ The model was deployed to the web using the Streamlit package, creating an inter
 
 So, in general, the notebooks used were divided into 7 parts:
 
-The search for data
-Exploratory analysis
-Pre-Processing
-Tests
-Splitting the data between training and testing.
-Training
-Test
+1.The search for data
+2.Exploratory analysis
+3.Pre-Processing
+4.Tests
+5.Splitting the data between training and testing.
+6.Training
+7.Test
 
 ## 🚀 Key features
 - Train on the Pima Indian Diabetes dataset
