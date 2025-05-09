@@ -200,6 +200,75 @@ pytest source/api/test_diabetes_prediction.py -vv -s
 
 ---
 
+## 🧪📋 Unit Tests Overview
+
+This project includes two separate sets of unit tests to ensure both **data integrity** and **model reliability**, as well as full model evaluation visualizations, using `pytest` and `Weights & Biases`.
+
+---
+
+### ✅ 1. Data Validation Tests (`test_data.py`)
+
+These tests validate the dataset downloaded from Weights & Biases before it is used in training or inference:
+
+| Test Name                      | Description |
+|-------------------------------|-------------|
+| `test_no_missing_values`      | Checks for any missing (null) values in the dataset |
+| `test_class_balance`          | Ensures that the `OUTCOME` classes are not severely imbalanced |
+| `test_duplicate_rows`         | Flags any duplicate rows |
+| `test_data_length`            | Ensures the dataset has more than 500 rows |
+| `test_number_of_columns`      | Confirms that the dataset contains enough columns (≥ 9) |
+| `test_column_presence_and_type` | Validates that `OUTCOME` is integer type and all features are numeric |
+| `test_class_names`            | Confirms that `OUTCOME` contains only valid values (0 or 1) |
+| `test_column_ranges`          | Ensures numeric columns have reasonable values (non-negative, not extreme) |
+
+Run this test suite with:
+
+```bash
+pytest test_data.py -vv -s
+---
+
+---
+### ✅ 2. Model Inference Tests (`test_diabetes_prediction.py`)
+
+These tests validate the trained model and its prediction logic:
+
+| Test Name                           | Description |
+|------------------------------------|-------------|
+| `test_model_prediction_diabetic`   | Tests prediction with input resembling a diabetic case |
+| `test_model_prediction_not_diabetic` | Tests prediction with input resembling a healthy case |
+
+These tests ensure the model:
+
+- Can be loaded from disk (`final_model.pkl`)
+- Returns valid predictions (`0` or `1`)
+- Can accept realistic input values
+
+Run this test suite with:
+
+```bash
+pytest source/api/test_diabetes_prediction.py -vv -s
+
+---
+
+---
+
+### ✅ 3. Evaluation Visualization & W&B Logging (`7_test.ipynb`)
+
+After model evaluation, the following items are automatically logged to **Weights & Biases (W&B)** for performance tracking and visualization:
+
+| Logged Component            | Description |
+|----------------------------|-------------|
+| `accuracy`, `precision`, `recall`, `f1`, `AUC` | Core model metrics (both default and tuned thresholds) |
+| `confusion_matrix_image`   | Confusion Matrix plotted and logged as a W&B image |
+| `roc_curve_image`          | Receiver Operating Characteristic (ROC) curve with AUC |
+| `precision_recall_curve`   | Precision-Recall curve for imbalanced classification |
+| `classification_report`    | Logged as a W&B table showing precision, recall, F1-score per class |
+
+To run and log these evaluations:
+
+```bash
+Run all cells in notebooks/7_test.ipynb
+---
 ## 📌 Notes
 - Ensure you use the correct versions of scikit-learn==1.1.3 and numpy==1.23.5 to maintain compatibility with the saved model.
 - All artifacts are stored on the W&B project [W&B project](https://wandb.ai/ngocnhi-p4work-national-economics-university/diabetes).
