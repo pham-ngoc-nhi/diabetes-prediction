@@ -1,5 +1,5 @@
 # 📊 Diabetes Prediction App
-### Introduction
+## Introduction
 
 This project aims to develop a simple and user-friendly Streamlit application that enables patients to estimate their risk of diabetes at home based on medical test results. By inputting key health metrics such as age, BMI, HbA1c levels, and blood glucose, users can receive a quick prediction of their diabetes risk. The application leverages a machine learning model trained on a diabetes dataset to provide accurate and reliable predictions.
 
@@ -11,7 +11,7 @@ The project is built using the following technologies:
 - pandas and NumPy: Libraries for data manipulation and numerical computations.
 - joblib: Used for saving and loading the trained machine learning model.
 
-# Model Card
+## Model Card
 
 The model was deployed to the web using the Streamlit package, creating an interactive user interface for predictions. The application was integrated into a CI/CD framework using GitHub Actions, as defined in the .github/workflows/deploy.yml file. After building and testing the Streamlit app locally, it was prepared for deployment, with potential live testing supported by the infrastructure. Weights & Biases were utilized to manage and track all artifacts, including the trained model (final_model.pkl) and pipeline (final_pipeline.pkl), stored and monitored through the platform
 
@@ -35,7 +35,7 @@ So, in general, the notebooks used were divided into 7 parts:
 - Track and store the model with Weights & Biases (W&B)
 ---
 
-## 🗂️ Folder structure
+## 🗂️ Folder Structure
 
 ```
 diabetes-prediction/
@@ -68,6 +68,45 @@ diabetes-prediction/
 
 ---
 
+## 🗂️ Folder Structure Details
+- data/:
+  Contains the raw dataset used for training and testing the model. The raw_data/ subdirectory stores the original CSV files (e.g., Pima Indian Diabetes dataset) fetched during the data ingestion phase.
+
+- model/:
+  Stores the trained machine learning artifacts, including final_model.pkl (the trained XGBoost model), final_pipeline.pkl, and pipeline_diabetes.pkl (preprocessing pipelines saved using joblib). These files are managed and tracked via Weights & Biases.
+
+- notebooks/:
+  Contains Jupyter notebooks for the development and experimentation phases:
+    * 1_fetch_data.ipynb: Handles data ingestion from the source.
+    * 2_eda.ipynb: Performs exploratory data analysis (EDA) to understand the dataset.
+    * 3_preprocessing.ipynb: Implements data preprocessing steps (e.g., handling missing values, encoding).
+    * 4_data_check.ipynb: Conducts data quality checks.
+    * 5_data_segregation.ipynb: Splits data into training and testing sets.
+    * 6_train.ipynb: Trains the XGBoost model and logs metrics to Weights & Biases.
+    * 7_test.ipynb: Evaluates the trained model on the test set.
+
+- source/:
+  Houses the core Python scripts for the project:
+
+- api/: Contains application logic:
+    * __init__.py: Initializes the package.
+    * pipeline.py: Defines the data preprocessing and model training pipeline.
+    * pipeline_config.py: Configures pipeline parameters.
+    * test_diabetes_prediction.py: Includes unit tests for the prediction logic.
+    * diabetes_prediction_app.py: Implements the Streamlit application for user interaction and prediction.
+
+- .github/workflows/:
+  Contains deploy.yml, which defines the CI/CD pipeline using GitHub Actions to automate testing and deployment processes.
+
+- requirements.txt:
+  Lists all Python package dependencies with specific versions (e.g., streamlit==1.45.0, scikit-learn==1.1.3) required to run the project.
+
+- Dockerfile:
+  Provides instructions to build a Docker container for the application, enabling consistent deployment across environments.
+
+- README.md:
+  Serves as the project documentation, detailing the setup, usage, and structure of the repository.
+  
 ## ⚙️ Virtual Environment
 ```bash
 # Clone repository
