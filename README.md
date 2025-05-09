@@ -1,5 +1,5 @@
-### 📊 Diabetes Prediction App
-# Introduction
+# 📊 Diabetes Prediction App
+### Introduction
 
 This project aims to develop a simple and user-friendly Streamlit application that enables patients to estimate their risk of diabetes at home based on medical test results. By inputting key health metrics such as age, BMI, HbA1c levels, and blood glucose, users can receive a quick prediction of their diabetes risk. The application leverages a machine learning model trained on a diabetes dataset to provide accurate and reliable predictions.
 
