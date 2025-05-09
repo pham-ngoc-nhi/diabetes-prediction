@@ -101,6 +101,25 @@ WANDB_API_KEY=Your_key_here
 
 ---
 This WANDB_API_KEY is used to log into your W&B project inside each notebook.
+
+## Streamlit 
+
+The Streamlit app is implemented in source/api/diabetes_prediction_app.py, while tests are located in source/api/test_diabetes_prediction.py.
+
+To run the Streamlit app locally for development and testing, use:
+```bash
+streamlit run source/api/diabetes_prediction_app.py
+```
+
+---
+This will launch the app at http://localhost:8501, where you can interact with the prediction interface.
+
+To test the app, run:
+```bash
+pytest source/api -vv -s
+```
+
+---
 ## ▶️ Run the application
 
 ```bash
@@ -140,7 +159,6 @@ pytest
 
 ---
 
-## 📌 Lưu ý
-
-- Đảm bảo sử dụng đúng phiên bản `scikit-learn==1.1.3` và `numpy==1.23.5` để tương thích với mô hình đã lưu.
-- Các artifact đã được lưu trữ trên [W&B project](https://wandb.ai/ngocnhi-p4work-national-economics-university/diabetes).
+## 📌 Notes
+- Ensure you use the correct versions of scikit-learn==1.1.3 and numpy==1.23.5 to maintain compatibility with the saved model.
+- All artifacts are stored on the W&B project [W&B project](https://wandb.ai/ngocnhi-p4work-national-economics-university/diabetes).
