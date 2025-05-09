@@ -268,3 +268,38 @@ notebooks/7_test.ipynb
 
 - Ensure you use the correct versions of `scikit-learn==1.1.3` and `numpy==1.23.5` to maintain compatibility with the saved model.
 - All artifacts are stored on the W&B project: [W&B project](https://wandb.ai/ngocnhi-p4work-national-economics-university/diabetes)
+
+---
+
+## 📈 Future Development Directions
+
+To further improve this project, the following enhancements are planned or recommended:
+
+- **📊 Model Improvement**
+  - Try additional classifiers (e.g., LightGBM, CatBoost, Ensemble Stacking)
+  - Use SHAP or LIME for explainability
+  - Optimize threshold using cost-sensitive evaluation
+
+- **💻 Application Features**
+  - Add user authentication for personalized tracking
+  - Enable batch predictions via CSV upload
+  - Display confidence scores and top contributing features for each prediction
+
+- **📦 Deployment**
+  - Deploy on a scalable platform (e.g., AWS, Azure, GCP)
+  - Integrate CI/CD for model retraining on new data
+  - Use Docker Compose or Kubernetes for multi-service orchestration
+
+- **🧪 Monitoring & Feedback**
+  - Implement drift detection and alerting (e.g., with Evidently or W&B Triggers)
+  - Collect real-world feedback from users and retrain periodically
+  - Track real-time usage and performance in production
+
+- **📱 UI/UX Enhancements**
+  - Improve mobile responsiveness and accessibility
+  - Add multi-language support for wider reach
+  - Embed visualizations using interactive Plotly or Streamlit charts
+
+These improvements aim to turn the app from a proof-of-concept into a production-ready health risk tool.
+
+---
