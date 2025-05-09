@@ -195,7 +195,7 @@ python source/api/pipeline.py
 ## 🧪 Testing
 
 ```bash
-pytest
+pytest source/api/test_diabetes_prediction.py -vv -s
 ```
 
 ---
