@@ -91,6 +91,16 @@ pip install -r requirements.txt
 
 ---
 
+## Practice Notebooks
+To understand the procedures of designing code locally, including important steps like fetching data, visualization, preprocessing, checking data, segregating data, training, and testing, you should run all notebooks step-by-step in the notebooks/ directory. Note that you should select the correct kernel (.venv) to avoid library conflicts.
+
+You should register with Weights & Biases to store all artifacts, metrics, and models. You can create an account on wandb.ai. After that, create a .env file in the notebooks/ directory with the following content:
+```bash
+WANDB_API_KEY=Your_key_here
+```
+
+---
+This WANDB_API_KEY is used to log into your W&B project inside each notebook.
 ## ▶️ Run the application
 
 ```bash
