@@ -19,13 +19,13 @@ The model was deployed to the web using the Streamlit package, creating an inter
 
 So, in general, the notebooks used were divided into 7 parts:
 
-1.The search for data
-2.Exploratory analysis
-3.Pre-Processing
-4.Tests
-5.Splitting the data between training and testing.
-6.Training
-7.Test
+- 1. The search for data
+- 2. Exploratory analysis
+- 3.Pre-Processing
+- 4.Tests
+- 5.Splitting the data between training and testing.
+- 6.Training
+- 7.Test
 
 ## 🚀 Key features
 - Train on the Pima Indian Diabetes dataset
@@ -112,6 +112,8 @@ streamlit run source/api/diabetes_prediction_app.py
 ```
 
 ---
+The screenshot below show a view of the Streamlit interface:
+![Project Streamlit interface](streamlit_diabetes_prediction.png)
 This will launch the app at http://localhost:8501, where you can interact with the prediction interface.
 
 To test the app, run:
