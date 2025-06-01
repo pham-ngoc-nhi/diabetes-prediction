@@ -1,4 +1,4 @@
-# 📊 Diabetes Prediction App
+# Diabetes Prediction App
 ## Introduction
 
 This project aims to develop a simple and user-friendly Streamlit application that enables patients to estimate their risk of diabetes at home based on medical test results. By inputting key health metrics such as age, BMI, HbA1c levels, and blood glucose, users can receive a quick prediction of their diabetes risk. The application leverages a machine learning model trained on a diabetes dataset to provide accurate and reliable predictions.
@@ -27,7 +27,7 @@ So, in general, the notebooks used were divided into 7 parts:
  6. Training
  7. Test
 
-## 🚀 Key features
+## Key features
 - Train on the Pima Indian Diabetes dataset
 - Complete preprocessing pipeline (handling zero values, feature creation, encoding, feature selection)
 - XGBoost model with parameters optimized by Optuna
@@ -35,7 +35,7 @@ So, in general, the notebooks used were divided into 7 parts:
 - Track and store the model with Weights & Biases (W&B)
 ---
 
-## 🗂️ Folder Structure
+## Folder Structure
 
 ```
 diabetes-prediction/
@@ -68,7 +68,7 @@ diabetes-prediction/
 
 ---
 
-## 🗂️ Folder Structure Details
+## Folder Structure Details
 - data/:
   Contains the raw dataset used for training and testing the model. The raw_data/ subdirectory stores the original CSV files (e.g., Pima Indian Diabetes dataset) fetched during the data ingestion phase.
 
@@ -107,7 +107,7 @@ diabetes-prediction/
 - README.md:
   Serves as the project documentation, detailing the setup, usage, and structure of the repository.
   
-## ⚙️ Virtual Environment
+## Virtual Environment
 ```bash
 # Clone repository
 git clone https://github.com/pham-ngoc-nhi/diabetes-prediction.git
@@ -161,7 +161,7 @@ pytest source/api -vv -s
 ```
 
 ---
-## ▶️ Run the application
+## Run the application
 
 ```bash
 streamlit run source/api/diabetes_prediction_app.py
@@ -169,7 +169,7 @@ streamlit run source/api/diabetes_prediction_app.py
 
 ---
 
-## 🧠 Retrain the model
+## Retrain the model
 
 ```bash
 python source/api/pipeline.py
@@ -177,7 +177,7 @@ python source/api/pipeline.py
 
 ---
 
-## 📝 Input example
+## Input example
 
 | Indicator                  | Sample value|
 |----------------------------|-------------|
@@ -192,13 +192,13 @@ python source/api/pipeline.py
 
 ---
 
-## 🧪📋 Unit Tests Overview
+## Unit Tests Overview
 
 This project includes three structured sets of unit tests to ensure **data integrity**, **model reliability**, and **full evaluation visualization**, using `pytest` and `Weights & Biases`.
 
 ---
 
-### ✅ 1. Data Validation Tests (`test_data.py`)
+### 1. Data Validation Tests (`test_data.py`)
 
 These tests validate the dataset downloaded from Weights & Biases before it is used in training or inference:
 
@@ -221,7 +221,7 @@ pytest test_data.py -vv -s
 
 ---
 
-### ✅ 2. Model Inference Tests (`test_diabetes_prediction.py`)
+### 2. Model Inference Tests (`test_diabetes_prediction.py`)
 
 These tests validate the trained model and its prediction logic:
 
@@ -244,7 +244,7 @@ pytest source/api/test_diabetes_prediction.py -vv -s
 
 ---
 
-### ✅ 3. Evaluation Visualization & W&B Logging (`7_test.ipynb`)
+### 3. Evaluation Visualization & W&B Logging (`7_test.ipynb`)
 
 After model evaluation, the following items are automatically logged to **Weights & Biases (W&B)** for performance tracking and visualization:
 
@@ -264,38 +264,38 @@ notebooks/7_test.ipynb
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Ensure you use the correct versions of `scikit-learn==1.1.3` and `numpy==1.23.5` to maintain compatibility with the saved model.
 - All artifacts are stored on the W&B project: [W&B project](https://wandb.ai/ngocnhi-p4work-national-economics-university/diabetes)
 
 ---
 
-## 📈 Future Development Directions
+## Future Development Directions
 
 To further improve this project, the following enhancements are planned or recommended:
 
-- **📊 Model Improvement**
+- ** Model Improvement**
   - Try additional classifiers (e.g., LightGBM, CatBoost, Ensemble Stacking)
   - Use SHAP or LIME for explainability
   - Optimize threshold using cost-sensitive evaluation
 
-- **💻 Application Features**
+- ** Application Features**
   - Add user authentication for personalized tracking
   - Enable batch predictions via CSV upload
   - Display confidence scores and top contributing features for each prediction
 
-- **📦 Deployment**
+- ** Deployment**
   - Deploy on a scalable platform (e.g., AWS, Azure, GCP)
   - Integrate CI/CD for model retraining on new data
   - Use Docker Compose or Kubernetes for multi-service orchestration
 
-- **🧪 Monitoring & Feedback**
+- ** Monitoring & Feedback**
   - Implement drift detection and alerting (e.g., with Evidently or W&B Triggers)
   - Collect real-world feedback from users and retrain periodically
   - Track real-time usage and performance in production
 
-- **📱 UI/UX Enhancements**
+- ** UI/UX Enhancements**
   - Improve mobile responsiveness and accessibility
   - Add multi-language support for wider reach
   - Embed visualizations using interactive Plotly or Streamlit charts
